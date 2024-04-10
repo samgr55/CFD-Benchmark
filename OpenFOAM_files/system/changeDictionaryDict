@@ -1,0 +1,221 @@
+FoamFile {
+    version 2.0;
+    format ascii;
+    class dictionary;
+    object changeDictionaryDict;
+}
+boundary {
+    B1_TE1_B1_TE7 {
+        type wall;
+    }
+    B1_TE1_B1_TE31 {
+        type wall;
+    }
+    B1_TE1_B1_TE24 {
+        type wall;
+    }
+    B1_TE1_B1_TE17 {
+        type wall;
+    }
+    B1_TE1_B1_TE40 {
+        type wall;
+    }
+    B1_TE1_B1_TE56 {
+        type wall;
+    }
+    B1_TE1_B1_TE68 {
+        type wall;
+    }
+    B1_TE1_B1_TE76 {
+        type wall;
+    }
+    B1_TE1_B1_TE82 {
+        type wall;
+    }
+    B1_TE1_B1_TE91 {
+        type wall;
+    }
+    B1_TE1_B1_TE96 {
+        type wall;
+    }
+    B1_TE1_B1_TE102 {
+        type wall;
+    }
+    B1_TE1_B1_TE111 {
+        type wall;
+    }
+    B1_TE1_B1_TE116 {
+        type wall;
+    }
+    B1_TE1_B1_TE124 {
+        type wall;
+    }
+    B1_TE1_B1_TE130 {
+        type wall;
+    }
+    B1_TE1_B1_TE140 {
+        type wall;
+    }
+    B1_TE1_B1_TE155 {
+        type wall;
+    }
+    B1_TE1_B1_TE181 {
+        type wall;
+    }
+    B1_TE1_B1_TE191 {
+        type wall;
+    }
+    B1_TE1_B1_TE201 {
+        type wall;
+    }
+    B1_TE1_B1_TE218 {
+        type wall;
+    }
+    B1_TE1_B1_TE230 {
+        type wall;
+    }
+    B1_TE1_B1_TE237 {
+        type wall;
+    }
+    B1_TE1_B1_TE240 {
+        type wall;
+    }
+    B1_TE1_B1_TE247 {
+        type wall;
+    }
+    B1_TE1_B1_TE250 {
+        type wall;
+    }
+    B1_TE1_B1_TE254 {
+        type wall;
+    }
+    B1_TE1_B1_TE260 {
+        type wall;
+    }
+    B1_TE1_B1_TE264 {
+        type wall;
+    }
+    B1_TE1_B1_TE267 {
+        type wall;
+    }
+    B1_TE1_B1_TE269 {
+        type wall;
+    }
+    B1_TE1_B1_TE284 {
+        type wall;
+    }
+    B1_TE1_B1_TE305 {
+        type wall;
+    }
+    B1_TE1_B1_TE341 {
+        type wall;
+    }
+    B1_TE1_B1_TE391 {
+        type wall;
+    }
+    B1_TE1_B1_TE393 {
+        type wall;
+    }
+    B1_TE1_B1_TE404 {
+        type wall;
+    }
+    B1_TE1_B1_TE407 {
+        type wall;
+    }
+    B1_TE1_B1_TE410 {
+        type wall;
+    }
+    B1_TE1_B1_TE417 {
+        type wall;
+    }
+    B1_TE1_B1_TE423 {
+        type wall;
+    }
+    B1_TE1_B1_TE428 {
+        type wall;
+    }
+    B1_TE1_B1_TE436 {
+        type wall;
+    }
+    B1_TE1_B1_TE439 {
+        type wall;
+    }
+    B1_TE1_B1_TE444 {
+        type wall;
+    }
+    B1_TE1_B1_TE447 {
+        type wall;
+    }
+    B1_TE1_B1_TE449 {
+        type wall;
+    }
+    B1_TE1_B1_TE466 {
+        type wall;
+    }
+    B1_TE1_B1_TE473 {
+        type wall;
+    }
+    B1_TE1_B1_TE482 {
+        type wall;
+    }
+    B1_TE1_B1_TE489 {
+        type wall;
+    }
+    B1_TE1_B1_TE493 {
+        type wall;
+    }
+    B1_TE1_B1_TE496 {
+        type wall;
+    }
+    B1_TE1_B1_TE498 {
+        type wall;
+    }
+    B1_TE1_B1_TE503 {
+        type wall;
+    }
+    B1_TE1_B1_TE506 {
+        type wall;
+    }
+    B1_TE1_B1_TE509 {
+        type wall;
+    }
+    B1_TE1_B1_TE511 {
+        type wall;
+    }
+    B1_TE1_B1_TE521 {
+        type wall;
+    }
+    B1_TE1_B1_TE536 {
+        type wall;
+    }
+    B1_TE1_B1_TE542 {
+        type wall;
+    }
+    B1_TE1_B1_TE551 {
+        type wall;
+    }
+    B1_TE1_B1_TE564 {
+        type wall;
+    }
+    B1_TE1_B1_TE574 {
+        type wall;
+    }
+    B1_TE1_B1_TE579 {
+        type wall;
+    }
+    B1_TE1_B1_TE586 {
+        type wall;
+    }
+    B1_TE1_B1_TE590 {
+        type wall;
+    }
+    B1_TE1_B1_TE593 {
+        type wall;
+    }
+    B1_TE1_B1_TE596 {
+        type wall;
+    }
+    B1_TE1_B1_TE601 {
+        type wall;
+    }
+}

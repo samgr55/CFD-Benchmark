@@ -1,0 +1,532 @@
+/*--------------------------------*- C++ -*----------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
+|  \\    /   O peration     | Version:  2312                                  |
+|   \\  /    A nd           | Website:  www.openfoam.com                      |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+FoamFile
+{
+    version     2.0;
+    format      ascii;
+    arch        "LSB;label=32;scalar=64";
+    class       polyBoundaryMesh;
+    location    "constant/polyMesh";
+    object      boundary;
+}
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+
+73
+(
+    B1_TE1_B1_TE7
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          36300;
+        startFace       16847633;
+    }
+    B1_TE1_B1_TE17
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          40143;
+        startFace       16883933;
+    }
+    B1_TE1_B1_TE24
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          35697;
+        startFace       16924076;
+    }
+    B1_TE1_B1_TE31
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          40206;
+        startFace       16959773;
+    }
+    B1_TE1_B1_TE35
+    {
+        type            patch;
+        nFaces          13716;
+        startFace       16999979;
+    }
+    B1_TE1_B1_TE37
+    {
+        type            patch;
+        nFaces          13250;
+        startFace       17013695;
+    }
+    B1_TE1_B1_TE40
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          14145;
+        startFace       17026945;
+    }
+    B1_TE1_B1_TE56
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          8324;
+        startFace       17041090;
+    }
+    B1_TE1_B1_TE68
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          2563;
+        startFace       17049414;
+    }
+    B1_TE1_B1_TE76
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          404;
+        startFace       17051977;
+    }
+    B1_TE1_B1_TE82
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          15024;
+        startFace       17052381;
+    }
+    B1_TE1_B1_TE91
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          14862;
+        startFace       17067405;
+    }
+    B1_TE1_B1_TE96
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          706;
+        startFace       17082267;
+    }
+    B1_TE1_B1_TE102
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          15183;
+        startFace       17082973;
+    }
+    B1_TE1_B1_TE111
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          15016;
+        startFace       17098156;
+    }
+    B1_TE1_B1_TE116
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          2419;
+        startFace       17113172;
+    }
+    B1_TE1_B1_TE124
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          1;
+        startFace       17115591;
+    }
+    B1_TE1_B1_TE130
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          2285;
+        startFace       17115592;
+    }
+    B1_TE1_B1_TE140
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          2348;
+        startFace       17117877;
+    }
+    B1_TE1_B1_TE155
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          638;
+        startFace       17120225;
+    }
+    B1_TE1_B1_TE181
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          27704;
+        startFace       17120863;
+    }
+    B1_TE1_B1_TE191
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          3;
+        startFace       17148567;
+    }
+    B1_TE1_B1_TE201
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          57592;
+        startFace       17148570;
+    }
+    B1_TE1_B1_TE218
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          1780;
+        startFace       17206162;
+    }
+    B1_TE1_B1_TE230
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          583;
+        startFace       17207942;
+    }
+    B1_TE1_B1_TE237
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          559;
+        startFace       17208525;
+    }
+    B1_TE1_B1_TE240
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          2265;
+        startFace       17209084;
+    }
+    B1_TE1_B1_TE247
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          1008;
+        startFace       17211349;
+    }
+    B1_TE1_B1_TE250
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          1127;
+        startFace       17212357;
+    }
+    B1_TE1_B1_TE254
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          12283;
+        startFace       17213484;
+    }
+    B1_TE1_B1_TE260
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          3617;
+        startFace       17225767;
+    }
+    B1_TE1_B1_TE264
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          992;
+        startFace       17229384;
+    }
+    B1_TE1_B1_TE267
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          902;
+        startFace       17230376;
+    }
+    B1_TE1_B1_TE269
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          16983;
+        startFace       17231278;
+    }
+    B1_TE1_B1_TE284
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          7195;
+        startFace       17248261;
+    }
+    B1_TE1_B1_TE305
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          6145;
+        startFace       17255456;
+    }
+    B1_TE1_B1_TE341
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          18425;
+        startFace       17261601;
+    }
+    B1_TE1_B1_TE391
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          6956;
+        startFace       17280026;
+    }
+    B1_TE1_B1_TE393
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          1703;
+        startFace       17286982;
+    }
+    B1_TE1_B1_TE404
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          1754;
+        startFace       17288685;
+    }
+    B1_TE1_B1_TE407
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          1721;
+        startFace       17290439;
+    }
+    B1_TE1_B1_TE410
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          18961;
+        startFace       17292160;
+    }
+    B1_TE1_B1_TE417
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          22205;
+        startFace       17311121;
+    }
+    B1_TE1_B1_TE423
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          1808;
+        startFace       17333326;
+    }
+    B1_TE1_B1_TE428
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          4718;
+        startFace       17335134;
+    }
+    B1_TE1_B1_TE436
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          8569;
+        startFace       17339852;
+    }
+    B1_TE1_B1_TE439
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          4947;
+        startFace       17348421;
+    }
+    B1_TE1_B1_TE444
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          13507;
+        startFace       17353368;
+    }
+    B1_TE1_B1_TE447
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          22273;
+        startFace       17366875;
+    }
+    B1_TE1_B1_TE449
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          58256;
+        startFace       17389148;
+    }
+    B1_TE1_B1_TE466
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          1809;
+        startFace       17447404;
+    }
+    B1_TE1_B1_TE473
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          3606;
+        startFace       17449213;
+    }
+    B1_TE1_B1_TE482
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          1015;
+        startFace       17452819;
+    }
+    B1_TE1_B1_TE489
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          528;
+        startFace       17453834;
+    }
+    B1_TE1_B1_TE493
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          11506;
+        startFace       17454362;
+    }
+    B1_TE1_B1_TE496
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          905;
+        startFace       17465868;
+    }
+    B1_TE1_B1_TE498
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          1039;
+        startFace       17466773;
+    }
+    B1_TE1_B1_TE503
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          2338;
+        startFace       17467812;
+    }
+    B1_TE1_B1_TE506
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          788;
+        startFace       17470150;
+    }
+    B1_TE1_B1_TE509
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          207;
+        startFace       17470938;
+    }
+    B1_TE1_B1_TE511
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          995;
+        startFace       17471145;
+    }
+    B1_TE1_B1_TE521
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          29083;
+        startFace       17472140;
+    }
+    B1_TE1_B1_TE536
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          819;
+        startFace       17501223;
+    }
+    B1_TE1_B1_TE542
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          923;
+        startFace       17502042;
+    }
+    B1_TE1_B1_TE551
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          24828;
+        startFace       17502965;
+    }
+    B1_TE1_B1_TE564
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          1082;
+        startFace       17527793;
+    }
+    B1_TE1_B1_TE574
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          815;
+        startFace       17528875;
+    }
+    B1_TE1_B1_TE579
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          1745;
+        startFace       17529690;
+    }
+    B1_TE1_B1_TE586
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          759;
+        startFace       17531435;
+    }
+    B1_TE1_B1_TE590
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          977;
+        startFace       17532194;
+    }
+    B1_TE1_B1_TE593
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          23139;
+        startFace       17533171;
+    }
+    B1_TE1_B1_TE596
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          455;
+        startFace       17556310;
+    }
+    B1_TE1_B1_TE601
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          761;
+        startFace       17556765;
+    }
+)
+
+// ************************************************************************* //

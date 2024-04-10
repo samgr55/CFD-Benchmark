@@ -1,0 +1,109 @@
+/*--------------------------------*- C++ -*----------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
+|  \\    /   O peration     | Version:  2312                                  |
+|   \\  /    A nd           | Website:  www.openfoam.com                      |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+FoamFile
+{
+    version     2.0;
+    format      ascii;
+    arch        "LSB;label=32;scalar=64";
+    class       dictionary;
+    location    "system";
+    object      fvSolution;
+}
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+
+solvers
+{
+    U
+    {
+        solver          smoothSolver;
+        tolerance       1e-06;
+        relTol          0.01;
+        smoother        GaussSeidel;
+    }
+    p
+    {
+        solver          GAMG;
+        tolerance       1e-06;
+        relTol          0.001;
+        smoother        GaussSeidel;
+        nPreSweeps      2;
+        nPostSweeps     1;
+        cacheAgglomeration on;
+        agglomerator    faceAreaPair;
+        nCellsInCoarsestLevel 10;
+        mergeLevels     1;
+    }
+    k
+    {
+        solver          smoothSolver;
+        tolerance       1e-06;
+        relTol          0.01;
+        smoother        GaussSeidel;
+    }
+    omega
+    {
+        solver          smoothSolver;
+        tolerance       1e-06;
+        relTol          0.01;
+        smoother        GaussSeidel;
+    }
+}
+
+relaxationFactors
+{
+    dynamic         on;
+    max
+    {
+        U               0.3;
+    }
+    writeRelaxationParameters on;
+    fields
+    {
+        p               0.3;
+    }
+    equations
+    {
+        U               0.3;
+        k               0.3;
+        omega           0.3;
+    }
+    respWeigh
+    {
+        U               95;
+    }
+    accWeigh
+    {
+        U               98;
+    }
+    trend
+    {
+        U               converging;
+    }
+    accumRes
+    {
+        U               2 ( 0.0202109161039 0.0200333942895 );
+    }
+    res
+    {
+        U               2 ( 0.00284309194856 0.00281377829231 );
+    }
+}
+
+SIMPLE
+{
+    nNonOrthogonalCorrectors 0;
+    pRefCell        0;
+    pRefValue       0;
+    residualControl
+    {
+        U               1e-06;
+        "p.*"           1e-06;
+        k               1e-06;
+        omega           1e-06;
+    }
+}
