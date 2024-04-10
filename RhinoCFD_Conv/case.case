@@ -1,0 +1,14 @@
+Saved case 1 details \Users\samra\Desktop\DynexQCFD-F16\case.case written Mon Apr  8 03:18:24 2024
+Matrix
+
+1,	0,	0,	-0.948071
+0,	1,	0,	-0.652866
+0,	0,	1,	-1.36873e-05
+0,	0,	0,	1
+
+fileType 2
+Title                                      6 P  * PHOENICS - 2021 
+boundbox 0, 0, 0 1.80621, 1.30357, 0.42316
+timesteps 0 0 0
+-1
+case.phi.vtk

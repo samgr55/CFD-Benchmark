@@ -1,0 +1,65 @@
+ After mpi_comm_size, nproc,myid=                     6                     3
+ after readenv par= F whf= F mlres= T  myid=                     3
+ mulresult= T  I am                     3
+ PVM3IN=           3
+Allocating F( 10000000) for Earth                                   
+Allocating SPEDAT( 38) for Earth                                                
+Allocating NAMPAT( 8) for Earth                                                 
+Allocating OBJNAM( 8) for Earth                                                 
+ Grid size on this domain is (    36,    16,    21)
+Using common ../facetdat
+ Time to send facetdat      0 ms
+Time to write p_eardat     1 ms
+NAMPAT memory released                                                          
+OBJNAM memory released                                                          
+Allocating LWORK( 501) for Earth                                                
+Allocating NAMPAT( 6) for Earth                                                 
+Allocating OBJNAM( 6) for Earth                                                 
+LWORK memory released                                                           
+FGV arrays allocated                                                            
+ EARDAT has been read for IRUN=  1 LIBREF=   0
+ Initial estimated storage requirement is                  10000000
+Allocating OBJECT arrays for Earth                                              
+ Properties being read from  *props
+ Properties have been read from  PROPS
+Allocating OBJNOS ( 1)                                                          
+ Number of F-array locations available is                  10000000
+ Number used before BFC allowance is                        1087295
+ Number used after BFC allowance is                         1087295
+ ierr1, ierr2                     0                     0
+ ierr1, ierr2                     0                     0
+ ierr1, ierr2                     0                     0
+ ierr1, ierr2                     0                     0
+ Total number of F-array elements used is                   1633977
+Allocating LWORK( 151) for Earth                                                
+LWORK memory released                                                           
+Allocating LWORK( 151) for Earth                                                
+ time to write phi/phida                      3  ms
+LWORK memory released                                                           
+Allocating LWORK( 151) for Earth                                                
+LWORK memory released                                                           
+Allocating LWORK( 151) for Earth                                                
+ time to write phi/phida                      3  ms
+LWORK memory released                                                           
+Allocating LWORK( 151) for Earth                                                
+LWORK memory released                                                           
+Allocating LWORK( 151) for Earth                                                
+ time to write phi/phida                      3  ms
+LWORK memory released                                                           
+Allocating LWORK( 151) for Earth                                                
+LWORK memory released                                                           
+Allocating LWORK( 151) for Earth                                                
+ time to write phi/phida                      4  ms
+LWORK memory released                                                           
+Allocating LWORK( 151) for Earth                                                
+LWORK memory released                                                           
+Allocating LWORK( 151) for Earth                                                
+ time to write phi/phida                      3  ms
+LWORK memory released                                                           
+ RUN NO.   1  ENDED AT ISWEEP=  1000  AND ISTEP=     1
+F released                                                                      
+OBJECT memory released                                                          
+FGV memory released                                                             
+NAMPAT memory released                                                          
+OBJNAM memory released                                                          
+SPEDAT memory released                                                          

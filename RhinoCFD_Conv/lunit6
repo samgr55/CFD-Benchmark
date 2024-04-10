@@ -1,0 +1,82 @@
+C:\Users\samra\AppData\Roaming\McNeel\Rhinoceros\7.0\Plug-ins\RhinoCFD (376ce15a-ac8d-4c58-ae2c-913728cd2930)\2022.1.4.1018\                                                                                                                                    
+ After mpi_comm_size, nproc,myid=                     6                     0
+ after readenv par= F whf= F mlres= T  myid=                     0
+ mulresult= T  I am                     0
+ PVM3IN=           0
+C:\Users\samra\AppData\Roaming\McNeel\Rhinoceros\7.0\Plug-ins\RhinoCFD (376ce15a-ac8d-4c58-ae2c-913728cd2930)\2022.1.4.1018\                                                                                                                                    
+C:\Users\samra\AppData\Roaming\McNeel\Rhinoceros\7.0\Plug-ins\RhinoCFD (376ce15a-ac8d-4c58-ae2c-913728cd2930)\2022.1.4.1018\                                                                                                                                    
+Allocating F( 10000000) for Earth                                   
+Allocating SPEDAT( 38) for Earth                                                
+Allocating NAMPAT( 8) for Earth                                                 
+Allocating OBJNAM( 8) for Earth                                                 
+ 
+ There are no sub-domains in the X-direction.                                   
+ There are  3 sub-domains in the Y-direction.                                   
+ There are  2 sub-domains in the Z-direction.                                   
+ Grid size on this domain is (    36,    16,    21)
+Using common facetdat
+ Time to send facetdat      0 ms
+Time to write p_eardat     1 ms
+NAMPAT memory released                                                          
+OBJNAM memory released                                                          
+Allocating LWORK( 501) for Earth                                                
+Allocating NAMPAT( 7) for Earth                                                 
+Allocating OBJNAM( 7) for Earth                                                 
+LWORK memory released                                                           
+FGV arrays allocated                                                            
+ EARDAT has been read for IRUN=  1 LIBREF=   0
+ Initial estimated storage requirement is                  10000000
+Allocating OBJECT arrays for Earth                                              
+Allocating OBJNOS ( 1)                                                          
+ Number of F-array locations available is                  10000000
+ Number used before BFC allowance is                        1087371
+ Number used after BFC allowance is                         1087371
+ ierr1, ierr2                     0                     0
+ ierr1, ierr2                     0                     0
+ ierr1, ierr2                     0                     0
+ ierr1, ierr2                     0                     0
+ Total number of F-array elements used is                   1638686
+Allocating GXMONI arrays ( 6030) for Earth                                      
+Allocating LWORK( 151) for Earth                                                
+ pbcl timing: gather                      0  sort                      0  write 
+                     1
+LWORK memory released                                                           
+Allocating LWORK( 151) for Earth                                                
+ time to write phi/phida                      3  ms
+LWORK memory released                                                           
+Allocating LWORK( 151) for Earth                                                
+ pbcl timing: gather                      0  sort                      0  write 
+                     1
+LWORK memory released                                                           
+Allocating LWORK( 151) for Earth                                                
+ time to write phi/phida                      3  ms
+LWORK memory released                                                           
+Allocating LWORK( 151) for Earth                                                
+ pbcl timing: gather                      0  sort                      0  write 
+                     1
+LWORK memory released                                                           
+Allocating LWORK( 151) for Earth                                                
+ time to write phi/phida                      3  ms
+LWORK memory released                                                           
+Allocating LWORK( 151) for Earth                                                
+ pbcl timing: gather                      0  sort                      0  write 
+                     1
+LWORK memory released                                                           
+Allocating LWORK( 151) for Earth                                                
+ time to write phi/phida                      4  ms
+LWORK memory released                                                           
+Allocating LWORK( 151) for Earth                                                
+ pbcl timing: gather                      0  sort                      0  write 
+                     1
+LWORK memory released                                                           
+ Run                      1   ended. Libref=                      0
+Allocating LWORK( 151) for Earth                                                
+ time to write phi/phida                      3  ms
+LWORK memory released                                                           
+F released                                                                      
+OBJECT memory released                                                          
+FGV memory released                                                             
+NAMPAT memory released                                                          
+OBJNAM memory released                                                          
+SPEDAT memory released                                                          
+GXMONI array memory released                                                    

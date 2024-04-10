@@ -1,0 +1,817 @@
+ ************************************************************
+ Number of sub-domains in X =    1
+ Number of sub-domains in Y =    3
+ Number of sub-domains in Z =    2
+ Index of current sub-domain in X =    1
+ Index of current sub-domain in Y =    3
+ Index of current sub-domain in Z =    1
+ ************************************************************
+ Initial estimated storage requirement is                  10000000
+ Information about material properties
+ 
+ Total number of SPEDATs is                    38
+ number of materials specified by SPEDATs is                      2
+ solprp = 100 porprp = 198 vacprp = 199
+ !!!! The properties file is PROPS
+ Properties being read from  *props
+ Properties have been read from  PROPS
+ 
+ PRPS is stored with initial value=
+ =-1.
+ Material properties used for phase 1 are
+ density
+ laminar viscosity
+ turbulent viscosity
+ mixing length
+ >>>   End of property-related data   <<<
+ ************************************************************
+ 
+ Number of F-array locations available is                  10000000
+ Number used before BFC allowance is                        1053312
+ Number used after BFC allowance is                         1053312
+ ************************************************************
+ 
+  Chen-Kim k-e turbulence model constants
+ 
+ AK =0.41 EWAL =8.6
+ CMU =0.5478 CD =0.1643 CMUCD =0.090004
+ C1E =1.15 C2E =1.9
+ 
+ The foregoing constants may be changed
+ from the Q1 file by setting:
+ SPEDAT(KECONST,name of constant,R,value)
+ 
+ ************************************************************
+ biggest cell volume divided by average is     6.348629      at:
+ ix = 19 iy = 15 iz = 13
+ xg =0.953199 yg =1.27687 zg =0.106825
+ smallest cell volume divided by average is   1.8544100E-02  at:
+ ix = 23 iy = 7 iz = 1
+ xg =1.262202 yg =0.984412 zg =5.1786E-04
+ ratio of smallest to biggest is   2.9209615E-03
+ ************************************************************
+ 
+ -------- Recommended settings -------
+ CONWIZ=T activates settings based on
+ refrho =1. refvel =10.
+ reflen =1. reftemp =50.
+ rlxdu1 =0.5 rlxdv1 =0.5 rlxdw1 =0.5
+ Maximum change of U1   per sweep=   100.0000    
+ Maximum change of V1   per sweep=   100.0000    
+ Maximum change of W1   per sweep=   100.0000    
+ Maximum change of KE   per sweep=  0.9999999    
+ Maximum change of EP   per sweep=   1000.000    
+ relaxation and min/max values left at
+ defaults may have been changed
+ 
+ ************************************************************
+ XParsol activated
+ SESAME2 activated
+Number of cells on this processor =      11340
+Number of equations for scalars on this processor =       8892
+Number of equations for U1/U2 on this processor =       8645
+Number of equations for V1/V2 on this processor =       8208
+Number of equations for W1/W2 on this processor =       8892
+ Solvers for variables:
+P1: CGRS+AMG                                     
+U1: CGRS+PBP                                     
+V1: CGRS+PBP                                     
+W1: CGRS+PBP                                     
+KE: CGRS+Euclid                                     
+EP: CGRS+Euclid                                     
+ ************************************************************
+  Group 1. Run Title and Number
+ ************************************************************
+ ************************************************************
+ 
+ TEXT(                                     6 P)
+ 
+ ************************************************************
+ ************************************************************
+ 
+ IRUNN = 1 ;LIBREF = 0
+ ************************************************************
+  Group 2. Time dependence
+ STEADY = T
+ ************************************************************
+  Group 3. X-Direction Grid Spacing
+ CARTES = T
+ NX = 36
+ XULAST =1.806212
+ ************************************************************
+  Group 4. Y-Direction Grid Spacing
+ NY = 40
+ YVLAST =1.303565
+ ************************************************************
+  Group 5. Z-Direction Grid Spacing
+ PARAB = F
+ NZ = 38
+ ZWLAST =0.42316
+ ************************************************************
+  Group 6. Body-Fitted Coordinates
+ ************************************************************
+  Group 7. Variables: STOREd,SOLVEd,NAMEd
+ ONEPHS = T
+ NAME(1)=P1 ;NAME(3)=U1
+ NAME(5)=V1 ;NAME(7)=W1
+ NAME(12)=KE ;NAME(13)=EP
+ NAME(146)=PRPS ;NAME(147)=EPKE
+ NAME(148)=DEN1 ;NAME(149)=EL1
+ NAME(150)=ENUT
+    * Y in SOLUTN argument list denotes:
+    * 1-stored 2-solved 3-whole-field
+    * 4-point-by-point 5-explicit 6-harmonic averaging 
+ SOLUTN(P1,Y,Y,Y,N,N,Y)
+ SOLUTN(U1,Y,Y,Y,N,N,Y)
+ SOLUTN(V1,Y,Y,Y,N,N,Y)
+ SOLUTN(W1,Y,Y,Y,N,N,Y)
+ SOLUTN(KE,Y,Y,Y,N,N,N)
+ SOLUTN(EP,Y,Y,Y,N,N,N)
+ SOLUTN(PRPS,Y,N,N,N,N,N)
+ SOLUTN(EPKE,Y,N,N,N,N,Y)
+ SOLUTN(DEN1,Y,N,N,N,N,Y)
+ SOLUTN(EL1,Y,N,N,N,N,Y)
+ SOLUTN(ENUT,Y,N,N,N,N,Y)
+ DEN1 = 148
+ VIST = 150
+ LEN1 = 149
+ PRPS = 146
+ ************************************************************
+  Group 8. Terms & Devices
+    * Y in TERMS argument list denotes:
+    * 1-built-in source 2-convection 3-diffusion 4-transient
+    * 5-first phase variable 6-interphase transport         
+ TERMS(P1,Y,Y,Y,N,Y,N)
+ TERMS(U1,Y,Y,Y,N,Y,N)
+ TERMS(V1,Y,Y,Y,N,Y,N)
+ TERMS(W1,Y,Y,Y,N,Y,N)
+ TERMS(KE,N,Y,Y,N,Y,N)
+ TERMS(EP,N,Y,Y,N,Y,N)
+ DIFCUT =0.5 ;ZDIFAC =1.
+ GALA = F ;ADDDIF = T
+ NEWENT = T
+ ISOLX = -1 ;ISOLY = -1 ;ISOLZ = -1
+ DENPCO = T
+ ************************************************************
+  Group 9. Properties used if PRPS is not
+  stored, and where PRPS = -1.0 if it is!
+ RHO1 =1.189 ;TMP1 =0. ;EL1 = GRND4
+ TSURR =0. ;TEMP0 =273.149994 ;PRESS0 =1.01325E+05
+ DVO1DT =3.41E-03 ;DRH1DP =0.
+ EMISS =0. ;SCATT =0.
+ RADIA =0. ;RADIB =0.
+ EL1A =0. ;EL1B =0. ;EL1C =0.
+ ENUL =1.544E-05 ;ENUT = GRND3
+ ENUTA =0. ;ENUTB =0. ;ENUTC =0.
+ IENUTA = 2
+ PRNDTL(U1)=1. ;PRNDTL(V1)=1.
+ PRNDTL(W1)=1. ;PRNDTL(KE)=1.
+ PRNDTL(EP)=1.
+ PRT(U1)=1. ;PRT(V1)=1.
+ PRT(W1)=1. ;PRT(KE)=0.75
+ PRT(EP)=1.15
+ CP1 =1005. ;CP2 =1.
+ ************************************************************
+  Group 10.Inter-Phase Transfer Processes
+ ************************************************************
+  Group 11.Initial field variables (PHIs)
+ FIINIT(P1)=0. ;FIINIT(U1)=1.0E-10
+ FIINIT(V1)=1.0E-10 ;FIINIT(W1)=1.0E-10
+ FIINIT(KE)=0.0625 ;FIINIT(EP)=0.080371
+ FIINIT(PRPS)=-1. ;FIINIT(EPKE)=1.0E-10
+ FIINIT(DEN1)=1.189 ;FIINIT(EL1)=1.0E-10
+ FIINIT(ENUT)=1.0E-10
+ 
+   Parent VR object for this patch is: SOLID
+ PATCH(OB1 ,INIVAL, 15, 22, 17, 24, 2, 24, 1, 1)
+ INIT(OB1 ,PRPS,0. ,198. )
+ 
+ INIADD = F
+ FSWEEP = 1
+ NAMFI =CHAM
+ ************************************************************
+  Group 12. Patchwise adjustment of terms
+  Patches for this group are printed with those
+  for Group 13.
+  Their names begin either with GP12 or &
+ ************************************************************
+  Group 13. Boundary & Special Sources
+ 
+ 
+ 
+ PATCH(KESOURCE,PHASEM, 1, 36, 1, 40, 1, 38, 1, 1)
+ COVAL(KESOURCE,KE , GRND4 , GRND4 )
+ COVAL(KESOURCE,EP , GRND4 , GRND4 )
+ 
+ PATCH(KECHEN ,PHASEM, 1, 36, 1, 40, 1, 38, 1, 1)
+ COVAL(KECHEN ,EP , FIXFLU , GRND4 )
+ 
+   Parent VR object for this patch is: DOM_XMIN_I
+ PATCH(OB2 ,WEST , 1, 1, 1, 40, 1, 38, 1, 1)
+ COVAL(OB2 ,P1 , FIXFLU ,59.450001 )
+ COVAL(OB2 ,U1 ,0. ,50. )
+ COVAL(OB2 ,V1 ,0. ,0. )
+ COVAL(OB2 ,W1 ,0. ,0. )
+ COVAL(OB2 ,KE ,0. ,0.0625 )
+ COVAL(OB2 ,EP ,0. ,0.080371 )
+ 
+   Parent VR object for this patch is: DOM_ZMIN_W
+ PATCH(OB3 ,LWALL , 1, 36, 1, 40, 1, 1, 1, 1)
+ COVAL(OB3 ,U1 , GRND2 ,50. )
+ COVAL(OB3 ,V1 , GRND2 ,0. )
+ COVAL(OB3 ,KE , GRND2 , GRND2 )
+ COVAL(OB3 ,EP , GRND2 , GRND2 )
+ 
+   Parent VR object for this patch is: DOM_XMAX_O
+ PATCH(OB4 ,EAST , 36, 36, 1, 40, 1, 38, 1, 1)
+ COVAL(OB4 ,P1 ,1000. ,0. )
+ COVAL(OB4 ,U1 ,0. ,0. )
+ COVAL(OB4 ,V1 ,0. ,0. )
+ COVAL(OB4 ,W1 ,0. ,0. )
+ COVAL(OB4 ,KE ,0. , SAME )
+ COVAL(OB4 ,EP ,0. , SAME )
+ 
+ XCYCLE = F
+ EGWF = T
+ WALLCO = GRND2
+ ************************************************************
+  Group 14. Downstream Pressure For PARAB
+ ************************************************************
+  Group 15. Terminate Sweeps
+ LSWEEP = 1000 ;ISWC1 = 1
+ LITHYD = 1 ;LITFLX = 1 ;LITC = 1 ;ITHC1 = 1
+ SELREF = T
+ RESFAC =1.0E-05
+ ************************************************************
+  Group 16. Terminate Iterations
+ LITER(P1)=100 ;LITER(U1)=50
+ LITER(V1)=20 ;LITER(W1)=20
+ LITER(KE)=50 ;LITER(EP)=100
+ ENDIT(P1)=1.0E-03 ;ENDIT(U1)=1.0E-03
+ ENDIT(V1)=1.0E-03 ;ENDIT(W1)=1.0E-03
+ ENDIT(KE)=1.0E-03 ;ENDIT(EP)=1.0E-03
+ ************************************************************
+  Group 17. Relaxation
+ RELAX(P1,LINRLX,0.5)
+ RELAX(U1,LINRLX,0.1)
+ RELAX(V1,LINRLX,0.1)
+ RELAX(W1,LINRLX,0.1)
+ RELAX(KE,LINRLX,0.4)
+ RELAX(EP,LINRLX,0.4)
+ RELAX(PRPS,LINRLX,1.)
+ RELAX(EPKE,LINRLX,1.)
+ RELAX(DEN1,LINRLX,0.5)
+ RELAX(EL1,LINRLX,1.)
+ RELAX(ENUT,LINRLX,0.5)
+ KELIN = 3
+ OVRRLX =0.
+ EXPERT = F ;NNORSL = F
+ ************************************************************
+  Group 18. Limits
+ VARMAX(P1)=1.0E+10 ;VARMIN(P1)=-1.0E+10
+ VARMAX(U1)=1.0E+06 ;VARMIN(U1)=-1.0E+06
+ VARMAX(V1)=1.0E+06 ;VARMIN(V1)=-1.0E+06
+ VARMAX(W1)=1.0E+06 ;VARMIN(W1)=-1.0E+06
+ VARMAX(KE)=1.0E+10 ;VARMIN(KE)=1.0E-10
+ VARMAX(EP)=1.0E+10 ;VARMIN(EP)=1.0E-10
+ VARMAX(PRPS)=1.0E+10 ;VARMIN(PRPS)=-1.0E+10
+ VARMAX(EPKE)=1.0E+10 ;VARMIN(EPKE)=1.0E-10
+ VARMAX(DEN1)=1.0E+10 ;VARMIN(DEN1)=1.0E-06
+ VARMAX(EL1)=1.0E+10 ;VARMIN(EL1)=1.0E-10
+ VARMAX(ENUT)=1.0E+10 ;VARMIN(ENUT)=1.0E-10
+ ************************************************************
+  Group 19. Data transmitted to GROUND
+ GENK = T
+ CONWIZ = T
+ CALFOR = T
+ IENUTA = 2
+ GEN1 = 681
+ ISG62 = 0
+ SPEDAT(SET,DOMAIN,PHASE_1_MAT,I,0)
+ SPEDAT(SET,GXMONI,PLOTALL,L,T)
+ SPEDAT(SET,OUTPUT,VTK,C,YES)
+ SPEDAT(SET,SOLPHI,P1,I,0)
+ SPEDAT(SET,PREPHI,P1,I,13)
+ SPEDAT(SET,SOLPHI,U1,I,0)
+ SPEDAT(SET,PREPHI,U1,I,0)
+ SPEDAT(SET,SOLPHI,V1,I,0)
+ SPEDAT(SET,PREPHI,V1,I,0)
+ SPEDAT(SET,SOLPHI,W1,I,0)
+ SPEDAT(SET,PREPHI,W1,I,0)
+ SPEDAT(SET,SOLPHI,KE,I,0)
+ SPEDAT(SET,PREPHI,KE,I,15)
+ SPEDAT(SET,SOLPHI,EP,I,0)
+ SPEDAT(SET,PREPHI,EP,I,15)
+ SPEDAT(SET,DRAG,CDCALC,C,YES)
+ SPEDAT(SET,DRAG,REFDEN,R,1.189)
+ SPEDAT(SET,DRAG,REFVEL,R,10.)
+ SPEDAT(SET,DRAG,REFARX,R,0.112032)
+ SPEDAT(SET,DRAG,REFARY,R,0.300672)
+ SPEDAT(SET,DRAG,REFARZ,R,0.406166)
+ SPEDAT(SET,DRAG,MOMCENX,R,0.)
+ SPEDAT(SET,DRAG,MOMCENY,R,0.)
+ SPEDAT(SET,DRAG,MOMCENZ,R,0.)
+ SPEDAT(SET,OBJNAM,^OB1,C,SOLID)
+ SPEDAT(SET,OBJTYP,^OB1,C,BLOCKAGE)
+ SPEDAT(SET,SOLID,MATERIAL,R,198.)
+ SPEDAT(SET,OBJNAM,^OB2,C,DOM_XMIN_I)
+ SPEDAT(SET,OBJTYP,^OB2,C,INLET)
+ SPEDAT(SET,OBJNAM,^OB3,C,DOM_ZMIN_W)
+ SPEDAT(SET,OBJTYP,^OB3,C,PLATE)
+ SPEDAT(SET,OBJNAM,^OB4,C,DOM_XMAX_O)
+ SPEDAT(SET,OBJTYP,^OB4,C,OUTLET)
+ SPEDAT(SET,ARATIO,^OB4,R,1.)
+ SPEDAT(SET,OBJNAM,^OB5,C,B5)
+ SPEDAT(SET,OBJTYP,^OB5,C,NULL)
+ SPEDAT(SET,FACETDAT,NUMOBJ,I,5)
+ SPEDAT(SET,MATERIAL,198,L,T)
+ ************************************************************
+  Group 20. Preliminary Printout
+ ************************************************************
+  Group 21. Print-out of Variables
+ INIFLD = F ;SUBWGR = F
+    * Y in OUTPUT argument list denotes:
+    * 1-field 2-correction-eq. monitor 3-selective dumping      
+    * 4-whole-field residual 5-spot-value table 6-residual table
+ OUTPUT(P1,N,N,Y,Y,Y,Y)
+ OUTPUT(U1,N,N,Y,Y,Y,Y)
+ OUTPUT(V1,N,N,Y,Y,Y,Y)
+ OUTPUT(W1,N,N,Y,Y,Y,Y)
+ OUTPUT(KE,N,N,Y,Y,Y,Y)
+ OUTPUT(EP,N,N,Y,Y,Y,Y)
+ OUTPUT(PRPS,N,N,Y,N,N,N)
+ OUTPUT(EPKE,N,N,Y,N,N,N)
+ OUTPUT(DEN1,N,N,Y,N,N,N)
+ OUTPUT(EL1,N,N,Y,N,N,N)
+ OUTPUT(ENUT,N,N,Y,N,N,N)
+ ************************************************************
+  Group 22. Monitor Print-Out
+ IXMON = 12 ;IYMON = 18 ;IZMON = 38
+ NPRMON = 100000 ;NPRMNT = 1 ;TSTSWP = 10001
+ UWATCH = F ;USTEER = F
+ HIGHLO = F
+ ************************************************************
+  Group 23.Field Print-Out & Plot Control
+ NPRINT = 100 ;NUMCLS = 5
+ NXPRIN = 7 ;IXPRF = 1 ;IXPRL = 36
+ NYPRIN = 8 ;IYPRF = 1 ;IYPRL = 40
+ NZPRIN = 7 ;IZPRF = 1 ;IZPRL = 38
+ XZPR = F ;YZPR = F
+ IPLTF = 1 ;IPLTL = 1000 ;NPLT = 50
+ ISWPRF = 1 ;ISWPRL = 100000
+ ITABL = 3 ;IPROF = 1
+ ABSIZ =0.5 ;ORSIZ =0.4
+ NTZPRF = 1 ;NCOLPF = 50
+ ICHR = 2 ;NCOLCO = 45 ;NROWCO = 20
+   No PATCHes yet used for this Group
+ 
+ ************************************************************
+  Group 24. Dumps For Restarts
+ SAVE = T ;NOWIPE = F
+ NSAVE =CHAM
+ IDISPA = 250 ;IDISPB = 0 ;IDISPC = 0
+ CSG1    ='SW'
+ 
+ *** grid-geometry information ***
+ X-coordinates of the cell centres
+    2.287E-02   4.017E-01   5.914E-01   1.215E+00   1.405E+00
+    1.783E+00
+ Y-coordinates of the cell centres
+ Z-coordinates of the cell centres
+ 
+ X-coordinates of the (higher) cell faces
+    4.574E-02   4.245E-01   6.290E-01   1.252E+00   1.427E+00
+    1.806E+00
+ Y-coordinates of the (higher) cell faces
+ Z-coordinates of the (higher) cell faces
+ 
+ Total number of F-array elements used is                   1598184
+ --- INTEGRATION OF EQUATIONS BEGINS ---
+ 
+ ************************************************************
+ *** End of sweep 100
+ ************************************************************
+ 
+ ************************************************************
+ Whole-field residuals before solution at sweep 100
+ with resref values determined by EARTH
+ & resfac=1.0E-05
+  variable   resref  (res sum)/resref  (res sum)
+     P1     6.639E+01   1.952E-04      1.296E-02
+     U1     3.448E+03   3.040E-02      1.048E+02
+     V1     3.448E+03   8.250E-03      2.844E+01
+     W1     3.448E+03   1.355E-02      4.672E+01
+     KE     4.790E+01   1.746E-02      8.364E-01
+     EP     7.688E+03   1.781E-02      1.369E+02
+ 
+ max abs corrections for solved-for variables
+ for comparison with maximum & minimum values
+  variable   max-cor      high           low     (   IX    IY    IZ)
+     P1     3.539E+00   8.910E+01     -1.923E+02 (   23,   20,    7)
+     U1     2.466E+00   5.262E+01      2.536E+01 (   28,   21,   17)
+     V1     6.844E-01   3.726E+00     -3.735E+00 (   30,   21,   19)
+     W1     1.706E-01   7.254E+00     -4.250E+00 (    9,   34,   10)
+     KE     3.172E-01   1.964E+01      1.819E-04 (   23,   21,   10)
+     EP     5.908E+01   1.088E+04      2.097E-03 (   25,   21,   23)
+ 
+ ************************************************************
+ *** End of sweep 200
+ ************************************************************
+ 
+ ************************************************************
+ Whole-field residuals before solution at sweep 200
+ with resref values determined by EARTH
+ & resfac=1.0E-05
+  variable   resref  (res sum)/resref  (res sum)
+     P1     6.621E+01   1.520E-04      1.006E-02
+     U1     3.429E+03   1.970E-02      6.755E+01
+     V1     3.429E+03   3.289E-03      1.128E+01
+     W1     3.429E+03   7.915E-03      2.714E+01
+     KE     4.711E+01   6.485E-03      3.055E-01
+     EP     8.164E+03   6.951E-03      5.675E+01
+ 
+ max abs corrections for solved-for variables
+ for comparison with maximum & minimum values
+  variable   max-cor      high           low     (   IX    IY    IZ)
+     P1     1.020E+00   1.299E+02     -2.081E+02 (   23,   31,    2)
+     U1     1.203E+00   5.237E+01      3.427E+01 (   30,   21,    4)
+     V1     2.182E-01   4.978E+00     -4.983E+00 (   36,   21,    9)
+     W1     8.083E-02   8.305E+00     -4.806E+00 (   25,   37,    9)
+     KE     7.336E-02   1.994E+01      1.266E-04 (   36,   21,   11)
+     EP     2.841E+01   1.118E+04      1.103E-03 (   21,   21,    2)
+ 
+ ************************************************************
+ *** End of sweep 300
+ ************************************************************
+ 
+ ************************************************************
+ Whole-field residuals before solution at sweep 300
+ with resref values determined by EARTH
+ & resfac=1.0E-05
+  variable   resref  (res sum)/resref  (res sum)
+     P1     6.616E+01   1.911E-04      1.264E-02
+     U1     3.414E+03   1.287E-02      4.393E+01
+     V1     3.414E+03   1.668E-03      5.693E+00
+     W1     3.414E+03   5.099E-03      1.741E+01
+     KE     4.369E+01   3.099E-03      1.354E-01
+     EP     8.030E+03   2.886E-03      2.317E+01
+ 
+ max abs corrections for solved-for variables
+ for comparison with maximum & minimum values
+  variable   max-cor      high           low     (   IX    IY    IZ)
+     P1     9.016E-01   1.313E+02     -2.175E+02 (   23,   27,    1)
+     U1     8.514E-01   5.234E+01      3.769E+01 (   35,   20,    7)
+     V1     8.134E-02   5.683E+00     -5.692E+00 (   35,   19,    3)
+     W1     7.629E-02   8.044E+00     -5.193E+00 (   25,   28,   10)
+     KE     4.638E-02   2.001E+01      1.193E-04 (   36,   21,   11)
+     EP     1.099E+01   1.170E+04      1.009E-03 (   24,   20,   23)
+ 
+ ************************************************************
+ *** End of sweep 400
+ ************************************************************
+ 
+ ************************************************************
+ Whole-field residuals before solution at sweep 400
+ with resref values determined by EARTH
+ & resfac=1.0E-05
+  variable   resref  (res sum)/resref  (res sum)
+     P1     6.596E+01   1.774E-04      1.170E-02
+     U1     3.388E+03   3.343E-03      1.133E+01
+     V1     3.388E+03   6.175E-04      2.092E+00
+     W1     3.388E+03   2.494E-03      8.450E+00
+     KE     4.188E+01   9.624E-04      4.031E-02
+     EP     7.877E+03   5.286E-04      4.164E+00
+ 
+ max abs corrections for solved-for variables
+ for comparison with maximum & minimum values
+  variable   max-cor      high           low     (   IX    IY    IZ)
+     P1     1.797E-01   1.277E+02     -2.215E+02 (   29,   14,    1)
+     U1     5.196E-01   5.238E+01      3.808E+01 (   35,   32,    2)
+     V1     5.066E-02   5.753E+00     -5.764E+00 (   36,   22,    8)
+     W1     4.183E-02   8.016E+00     -5.201E+00 (   33,   28,   17)
+     KE     2.497E-02   2.000E+01      1.177E-04 (   36,   20,   23)
+     EP     1.756E+00   1.171E+04      9.886E-04 (   33,   20,   23)
+ 
+ ************************************************************
+ *** End of sweep 500
+ ************************************************************
+ 
+ ************************************************************
+ Whole-field residuals before solution at sweep 500
+ with resref values determined by EARTH
+ & resfac=1.0E-05
+  variable   resref  (res sum)/resref  (res sum)
+     P1     6.589E+01   1.907E-05      1.256E-03
+     U1     3.384E+03   2.033E-04      6.878E-01
+     V1     3.384E+03   6.338E-05      2.145E-01
+     W1     3.384E+03   2.672E-04      9.043E-01
+     KE     4.160E+01   1.344E-04      5.591E-03
+     EP     7.850E+03   5.856E-05      4.597E-01
+ 
+ max abs corrections for solved-for variables
+ for comparison with maximum & minimum values
+  variable   max-cor      high           low     (   IX    IY    IZ)
+     P1     9.684E-03   1.273E+02     -2.219E+02 (   24,   18,   38)
+     U1     4.583E-02   5.238E+01      3.809E+01 (   35,   21,   10)
+     V1     1.006E-02   5.753E+00     -5.763E+00 (   36,   22,    8)
+     W1     1.650E-02   8.017E+00     -5.201E+00 (   36,   31,   15)
+     KE     1.654E-02   2.000E+01      1.169E-04 (   24,   20,   24)
+     EP     1.356E+00   1.171E+04      9.780E-04 (   24,   20,   24)
+ 
+ ************************************************************
+ *** End of sweep 600
+ ************************************************************
+ 
+ ************************************************************
+ Whole-field residuals before solution at sweep 600
+ with resref values determined by EARTH
+ & resfac=1.0E-05
+  variable   resref  (res sum)/resref  (res sum)
+     P1     6.588E+01   2.098E-06      1.382E-04
+     U1     3.384E+03   2.054E-05      6.951E-02
+     V1     3.384E+03   4.184E-06      1.416E-02
+     W1     3.384E+03   1.502E-05      5.082E-02
+     KE     4.158E+01   3.184E-05      1.324E-03
+     EP     7.849E+03   1.500E-05      1.177E-01
+ 
+ max abs corrections for solved-for variables
+ for comparison with maximum & minimum values
+  variable   max-cor      high           low     (   IX    IY    IZ)
+     P1     7.635E-03   1.273E+02     -2.219E+02 (   10,    1,   38)
+     U1     1.173E-03   5.238E+01      3.809E+01 (   35,   20,   10)
+     V1     4.765E-04   5.753E+00     -5.763E+00 (   36,   18,    7)
+     W1     4.367E-04   8.017E+00     -5.201E+00 (   35,   36,   19)
+     KE     1.307E-02   2.000E+01      1.161E-04 (   24,   20,   24)
+     EP     1.022E+00   1.171E+04      9.678E-04 (   24,   20,   24)
+ 
+ ************************************************************
+ *** End of sweep 700
+ ************************************************************
+ 
+ ************************************************************
+ Whole-field residuals before solution at sweep 700
+ with resref values determined by EARTH
+ & resfac=1.0E-05
+  variable   resref  (res sum)/resref  (res sum)
+     P1     6.588E+01   7.421E-07      4.889E-05
+     U1     3.384E+03   3.425E-06      1.159E-02
+     V1     3.384E+03   6.897E-07      2.333E-03
+     W1     3.384E+03   9.272E-07      3.137E-03
+     KE     4.158E+01   2.741E-05      1.140E-03
+     EP     7.849E+03   1.250E-05      9.808E-02
+ 
+ max abs corrections for solved-for variables
+ for comparison with maximum & minimum values
+  variable   max-cor      high           low     (   IX    IY    IZ)
+     P1     4.757E-03   1.273E+02     -2.219E+02 (   28,    1,   37)
+     U1     7.095E-05   5.238E+01      3.809E+01 (   22,   21,   24)
+     V1     6.988E-05   5.753E+00     -5.764E+00 (   22,   21,   24)
+     W1     8.105E-05   8.017E+00     -5.201E+00 (   36,   31,   19)
+     KE     1.106E-02   2.000E+01      1.151E-04 (   25,   20,   24)
+     EP     7.356E-01   1.171E+04      9.563E-04 (   25,   20,   24)
+ 
+ ************************************************************
+ *** End of sweep 800
+ ************************************************************
+ 
+ ************************************************************
+ Whole-field residuals before solution at sweep 800
+ with resref values determined by EARTH
+ & resfac=1.0E-05
+  variable   resref  (res sum)/resref  (res sum)
+     P1     6.588E+01   6.641E-07      4.375E-05
+     U1     3.384E+03   3.232E-06      1.094E-02
+     V1     3.384E+03   3.181E-07      1.076E-03
+     W1     3.384E+03   4.116E-07      1.393E-03
+     KE     4.158E+01   4.246E-05      1.766E-03
+     EP     7.849E+03   1.650E-05      1.295E-01
+ 
+ max abs corrections for solved-for variables
+ for comparison with maximum & minimum values
+  variable   max-cor      high           low     (   IX    IY    IZ)
+     P1     3.504E-03   1.273E+02     -2.219E+02 (    9,   22,   34)
+     U1     4.506E-04   5.238E+01      3.809E+01 (   22,   21,   24)
+     V1     9.882E-05   5.753E+00     -5.764E+00 (   22,   21,   24)
+     W1     8.286E-06   8.017E+00     -5.201E+00 (   11,   38,    8)
+     KE     2.276E-02   2.000E+01      1.144E-04 (   25,   21,   24)
+     EP     1.145E+00   1.171E+04      9.465E-04 (   26,   21,   24)
+ 
+ ************************************************************
+ *** End of sweep 900
+ ************************************************************
+ 
+ ************************************************************
+ Whole-field residuals before solution at sweep 900
+ with resref values determined by EARTH
+ & resfac=1.0E-05
+  variable   resref  (res sum)/resref  (res sum)
+     P1     6.588E+01   6.584E-07      4.338E-05
+     U1     3.384E+03   3.195E-06      1.081E-02
+     V1     3.384E+03   3.440E-07      1.164E-03
+     W1     3.384E+03   4.261E-07      1.442E-03
+     KE     4.158E+01   2.803E-05      1.166E-03
+     EP     7.849E+03   1.059E-05      8.311E-02
+ 
+ max abs corrections for solved-for variables
+ for comparison with maximum & minimum values
+  variable   max-cor      high           low     (   IX    IY    IZ)
+     P1     3.691E-03   1.273E+02     -2.219E+02 (   27,   38,   38)
+     U1     7.273E-05   5.238E+01      3.809E+01 (   22,   21,   24)
+     V1     1.136E-05   5.753E+00     -5.764E+00 (   22,   19,   24)
+     W1     1.189E-05   8.017E+00     -5.201E+00 (   23,   39,   14)
+     KE     9.975E-03   2.000E+01      1.134E-04 (   25,   21,   24)
+     EP     7.419E-01   1.171E+04      9.347E-04 (   26,   21,   24)
+ 
+ ************************************************************
+ *** End of sweep 1000
+ ************************************************************
+ 
+ ************************************************************
+ Whole-field residuals before solution at sweep 1000
+ with resref values determined by EARTH
+ & resfac=1.0E-05
+  variable   resref  (res sum)/resref  (res sum)
+     P1     6.588E+01   6.957E-07      4.584E-05
+     U1     3.384E+03   3.334E-06      1.128E-02
+     V1     3.384E+03   3.421E-07      1.157E-03
+     W1     3.384E+03   4.214E-07      1.426E-03
+     KE     4.158E+01   5.388E-05      2.241E-03
+     EP     7.849E+03   1.800E-05      1.413E-01
+ 
+ max abs corrections for solved-for variables
+ for comparison with maximum & minimum values
+  variable   max-cor      high           low     (   IX    IY    IZ)
+     P1     4.433E-03   1.273E+02     -2.219E+02 (   11,   17,   38)
+     U1     3.071E-04   5.238E+01      3.809E+01 (   22,   20,   24)
+     V1     5.641E-05   5.753E+00     -5.764E+00 (   22,   21,   24)
+     W1     7.848E-06   8.017E+00     -5.201E+00 (    9,   39,    5)
+     KE     1.774E-02   2.000E+01      1.125E-04 (   25,   20,   24)
+     EP     1.275E+00   1.171E+04      9.239E-04 (   25,   21,   24)
+ 
+ 
+ ************************************************************
+ spot values vs sweep or iteration number
+ IXMON= 12 IYMON= 18 IZMON= 38 TIMESTEP= 1
+ 
+ Tabulation of abscissa and ordinates...
+   ISWP       P1           U1           V1           W1           KE  
+      1   0.0000E+00   4.8695E+00   9.0440E-11   1.0000E-10   1.2252E+01
+     51   5.1305E+00   4.9964E+01   8.2799E-03   8.8999E-04   4.6482E-03
+    101   7.9401E+00   4.9997E+01   5.5654E-03   5.4535E-05   6.4520E-04
+    151   9.9956E+00   4.9999E+01   5.4281E-03   6.9084E-06   5.4281E-04
+    201   1.1290E+01   4.9999E+01   6.1056E-03   8.7650E-06   6.1099E-04
+    251   1.0972E+01   4.9999E+01   6.3041E-03   1.2802E-05   6.3573E-04
+    301   9.1408E+00   4.9999E+01   6.2316E-03   1.3698E-05   6.2989E-04
+    351   7.0430E+00   4.9999E+01   6.1807E-03   1.3627E-05   6.2458E-04
+    401   5.9073E+00   4.9999E+01   6.1775E-03   1.3647E-05   6.2417E-04
+    451   5.5802E+00   4.9999E+01   6.1819E-03   1.3703E-05   6.2471E-04
+    501   5.5055E+00   4.9999E+01   6.1825E-03   1.3920E-05   6.2487E-04
+    551   5.4863E+00   4.9999E+01   6.1817E-03   1.4288E-05   6.2491E-04
+    601   5.4873E+00   4.9999E+01   6.1833E-03   1.4332E-05   6.2510E-04
+    651   5.4878E+00   4.9999E+01   6.1829E-03   1.4532E-05   6.2518E-04
+    701   5.4900E+00   4.9999E+01   6.1816E-03   1.4691E-05   6.2518E-04
+    751   5.4863E+00   4.9999E+01   6.1817E-03   1.4937E-05   6.2527E-04
+    801   5.4871E+00   4.9999E+01   6.1823E-03   1.5146E-05   6.2543E-04
+    851   5.4830E+00   4.9999E+01   6.1827E-03   1.5302E-05   6.2550E-04
+    901   5.4845E+00   4.9999E+01   6.1824E-03   1.5409E-05   6.2554E-04
+    951   5.4845E+00   4.9999E+01   6.1827E-03   1.5622E-05   6.2567E-04
+   ISWP       EP  
+      1   1.3274E+04
+     51   3.1460E-01
+    101   1.3064E-02
+    151   9.7468E-03
+    201   1.1640E-02
+    251   1.2400E-02
+    301   1.2241E-02
+    351   1.2081E-02
+    401   1.2066E-02
+    451   1.2082E-02
+    501   1.2087E-02
+    551   1.2088E-02
+    601   1.2093E-02
+    651   1.2096E-02
+    701   1.2096E-02
+    751   1.2099E-02
+    801   1.2104E-02
+    851   1.2105E-02
+    901   1.2107E-02
+    951   1.2110E-02
+   Variable    1 = P1     2 = U1     3 = V1     4 = W1     5 = KE  
+     Minval=  0.000E+00  4.869E+00  9.044E-11  1.000E-10  5.428E-04
+     Maxval=  1.129E+01  5.000E+01  8.280E-03  8.900E-04  1.225E+01
+     Cellav=  6.394E+00  4.774E+01  5.914E-03  5.879E-05  6.134E-01
+   Variable    6 = EP  
+     Minval=  9.747E-03
+     Maxval=  1.327E+04
+     Cellav=  6.637E+02
+ 1.00 6..4.2..2.+2.2.+2.2.+2..2+2..2+.2.2+.2.2+.2..2.2..2
+      .            1                                    .
+ 0.90 +       1                                         +
+      .                                                 .
+ 0.80 +               1                                 +
+      .          3 3  3 3  3  3 3  3  3 3  3 3  3  3 3  3
+ 0.70 +    1                                            +
+      .    3  3                                         .
+ 0.60 +                 1                               +
+      .                                                 .
+ 0.50 +                    1  1 1  1  1 1  1 1  1  1 1  1
+      .  1                                              .
+ 0.40 +                                                 +
+      .                                                 .
+ 0.30 +                                                 +
+      .                                                 .
+ 0.20 +                                                 +
+      .                                                 .
+ 0.10 +                                                 +
+      .    4                                            .
+ 0.00 4..6.6..6.+6.6.+6.6.+6..6+6..6+.6.6+.6.6+.6..6.6..6
+      0   .1   .2   .3   .4   .5   .6   .7   .8   .9  1.0
+ the abscissa is      ISWP.  min= 1.00E+00 max= 9.51E+02
+ 
+ ************************************************************
+ 
+ ************************************************************
+ residuals vs sweep or iteration number
+ 
+ Tabulation of abscissa and ordinates...
+   ISWP       P1           U1           V1           W1           KE  
+      1   1.1000E+00   1.0152E+00   3.0251E-09   1.9974E-12   1.6046E+01
+     51   1.5269E-04   3.8604E-02   1.3124E-02   2.0133E-02   4.1231E-02
+    101   1.9637E-04   3.0243E-02   8.1790E-03   1.3505E-02   1.7303E-02
+    151   2.0476E-04   2.3240E-02   5.7872E-03   1.1805E-02   9.9419E-03
+    201   1.5272E-04   1.9636E-02   3.2526E-03   7.8444E-03   6.4284E-03
+    251   1.4316E-04   1.6501E-02   2.1615E-03   5.3252E-03   4.2911E-03
+    301   1.9245E-04   1.2778E-02   1.6606E-03   5.0890E-03   3.0757E-03
+    351   2.2859E-04   7.7926E-03   1.1989E-03   4.0019E-03   1.9277E-03
+    401   1.7537E-04   3.2728E-03   6.0708E-04   2.4594E-03   9.5157E-04
+    451   7.6096E-05   9.4535E-04   2.2285E-04   9.7980E-04   3.8625E-04
+    501   1.7958E-05   1.9691E-04   6.1620E-05   2.5916E-04   1.4265E-04
+    551   3.5399E-06   5.7664E-05   1.4223E-05   4.7163E-05   5.5660E-05
+    601   2.0992E-06   2.0043E-05   4.1012E-06   1.4780E-05   4.8767E-05
+    651   1.1541E-06   5.8552E-06   1.7033E-06   4.7993E-06   4.6728E-05
+    701   7.2848E-07   3.3633E-06   6.9218E-07   9.1781E-07   2.2443E-05
+    751   6.6718E-07   3.2414E-06   3.6288E-07   4.4719E-07   2.6915E-05
+    801   6.5328E-07   3.2383E-06   3.2058E-07   4.0948E-07   3.3730E-05
+    851   6.6901E-07   3.2781E-06   3.5223E-07   4.6082E-07   4.4707E-05
+    901   6.5640E-07   3.2294E-06   3.4984E-07   4.4926E-07   1.8940E-05
+    951   6.4140E-07   3.1869E-06   3.2993E-07   4.1627E-07   2.7028E-05
+   ISWP       EP  
+      1   3.6241E+01
+     51   5.8181E-02
+    101   1.7567E-02
+    151   9.9540E-03
+    201   6.9123E-03
+    251   4.9010E-03
+    301   2.8486E-03
+    351   1.3477E-03
+    401   5.1967E-04
+    451   1.7952E-04
+    501   5.5763E-05
+    551   2.0944E-05
+    601   1.3332E-05
+    651   1.2714E-05
+    701   1.0119E-05
+    751   1.1897E-05
+    801   1.3383E-05
+    851   1.8218E-05
+    901   6.6418E-06
+    951   1.2780E-05
+   Variable    1 = P1     2 = U1     3 = V1     4 = W1     5 = KE  
+     Minval= -1.426E+01 -1.266E+01 -1.962E+01 -2.694E+01 -1.087E+01
+     Maxval=  9.531E-02  1.513E-02 -4.333E+00 -3.905E+00  2.775E+00
+   Variable    6 = EP  
+     Minval= -1.192E+01
+     Maxval=  3.590E+00
+ 1.00 6..4.4..4.+....+....+....+....+....+....+....+....+
+      .    3  3  4 4  4 4                               .
+ 0.90 +          3 3       4                            +
+      .               3 3     4                         .
+ 0.80 +                    3    4                       +
+      .  2                    3    4                    .
+ 0.70 +    2  2  2                    4                 +
+      .            2  2         3       4               .
+ 0.60 +  6              2                               +
+      .  5                 2       3       4 4  4  4 4  4
+ 0.50 +    6                                            +
+      .       6  6 6          2       3                 .
+ 0.40 +  1 1  1  1 5  6 1  1            3               +
+      .               5 6     1 2          3            .
+ 0.30 +                    6                 3  3  3 3  3
+      .                         1  2                    .
+ 0.20 +                       6                         +
+      .                         6     2                 .
+ 0.10 +                            5  1                 +
+      .                            6  6 6  6 6  6  6    6
+ 0.00 4....+....+....+....+....+....+....+.5.2+.2..2.6..2
+      0   .1   .2   .3   .4   .5   .6   .7   .8   .9  1.0
+ the abscissa is      ISWP.  min= 1.00E+00 max= 9.51E+02
+ 
+ ************************************************************
+ ************************************************************
+ 
+ ************************************************************
+ SATLIT RUN NUMBER =   1 ; LIBRARY REF.=    0
+ CPU time of run 245 s
+ This includes 245 seconds of user time and 0 seconds of system time.
+ TIME/(VARIABLES*CELLS*TSTEPS*SWEEPS*ITS) = 7.462E-07
+ ************************************************************

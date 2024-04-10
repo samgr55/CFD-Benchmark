@@ -1,0 +1,169 @@
+ TTFTFTTFFFFFFFFFFFTFFFFFTTFFFTTFFFFFFFFFFTFFFFFFFFTTFFFFFFFFFFFFFFFTTFFFFFFFFF
+ FFFFFF
+         36        17        21         6         5      -999         0
+         10         1         0         0        -2         0         0
+          0         0         0         1       -18         1         1
+          1         1         1         1         1      1000       100
+          0         0         1         1         1     -9999       100
+        100       200        10         0         0        36        17
+         21         1        14        15         1     10000         1
+      10000         1        17         1    100000         1        21
+          1         5        -1        -1        -1        -1    100000
+     100000         1        -1         0         0         0        70
+          8       172         2         0         1         1       148
+          0         0         0         1    100000         0        -1
+          1        -1        -1         3         0         0       149
+          0       100       200       200       100      5000         0
+         -1        -1       256         0         0         0         0
+         50        45        20         0         0         0         0
+     100000    102500    105000    107500         0       146       150
+        150
+                                      6 P                                                        
+ NONE                                            CHAM                                            
+ CHAM                                            CHAM                                            
+ CHAM                                            CHAM                                            
+ CHAM                                            CHAM                                            
+ CHAM                                            CHAM                                            
+ CHAM                                            DF15                                            
+ CHAM                                            CHAM                                            
+ CHAM                                            NONE                                            
+ CHAM                                            CHAM                                            
+  1.000000E-20 1.000000E+20 0.000000E+00 0.000000E+00 0.000000E+00 0.000000E+00
+  0.000000E+00 0.000000E+00 0.000000E+00 0.000000E+00 1.806212E+00 1.303565E+00
+  4.231603E-01 1.000000E+00 0.000000E+00 0.000000E+00 0.000000E+00 0.000000E+00
+  1.544000E-05-1.014000E+04 1.189000E+00 1.000000E+00 0.000000E+00 0.000000E+00
+  0.000000E+00-1.011000E+04-1.024000E+04 2.000000E-10-1.022000E+04-1.023000E+04
+  1.000000E+00 0.000000E+00 0.000000E+00 0.000000E+00 0.000000E+00 0.000000E+00
+  0.000000E+00 0.000000E+00 0.000000E+00 1.000000E+00 5.000000E-01 5.000000E-01
+  4.000000E-01-1.025000E+04 0.000000E+00 0.000000E+00-1.015000E+04 0.000000E+00
+ -1.012000E+04-1.013000E+04-1.014000E+04-1.015000E+04-1.016000E+04-1.017000E+04
+ -1.018000E+04-1.019000E+04-1.020000E+04-1.021000E+04 0.000000E+00 1.000000E+19
+ -1.026000E+04 2.000000E+10 0.000000E+00 0.000000E+00 0.000000E+00 1.000000E-02
+  0.000000E+00 0.000000E+00 1.000000E+00 1.000000E+04 2.000000E+01 0.000000E+00
+  0.000000E+00 1.005000E+03 1.000000E+00 1.000000E-05-1.013000E+04 0.000000E+00
+  3.410000E-03 0.000000E+00 0.000000E+00 0.000000E+00-1.027000E+04-1.028000E+04
+  0.000000E+00
+ TTTFTFTFTTFTTFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+ FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFTTTTT
+       4290       390     30030     30030     30030     30030      2730
+       1155      1155     15015      1365     15015      1365     15015
+        100        20        50        20        20         1         1
+         50       100        20        20        20        20        20
+        172       172        80        92       104       112       172
+        120       140       168       172       172       172       172
+        168       168        88       100       108       116       168
+        136       164       168       168       168       168       168
+        390        13       390       390       390        91        91
+         30        30         2        26        26        26        26
+       5005        35      5005      5005      5005        35        35
+       5005      5005         5         5         5         5         5
+ P1  P2  U1  V1  W1  R1  R2  KE  EP  PRPSEPKEDEN1EL1 ENUT
+ -5.000000E-01 1.000000E+09-1.000000E-01-1.000000E-01-1.000000E-01-4.000000E-01
+ -4.000000E-01-4.000000E-01-4.000000E-01-1.000000E+00-1.000000E+00-1.000000E+00
+ -1.000000E+00-1.000000E+00 1.000000E-08 1.000000E-08 1.000000E-08 1.000000E-08
+  1.000000E-08 1.000000E-08 1.000000E-08 1.000000E-08 1.000000E-08 1.000000E-08
+  1.000000E-08 1.000000E-08 1.000000E-08 1.000000E-08 1.000000E+00 9.990000E-01
+  1.000000E+00 1.000000E+00 1.000000E+00 1.000000E+00 1.000000E+00 1.000000E+00
+  1.000000E+00 1.000000E+00 1.000000E+00 1.000000E+00 1.000000E+00 1.000000E+00
+  1.000000E+00 1.000000E+00 1.000000E+00 1.000000E+00 1.000000E+00 1.000000E+00
+  1.000000E+00 7.500000E-01 1.150000E+00 1.000000E+00 1.000000E+00 1.000000E+00
+  1.000000E+00 1.000000E+00 1.000000E-03 1.000000E-03 1.000000E-03 1.000000E-03
+  1.000000E-03 1.000000E-03 1.000000E-03 1.000000E-03 1.000000E-03 1.000000E-03
+  1.000000E-03 1.000000E-03 1.000000E-03 1.000000E-03-1.000000E+10-1.000000E+10
+ -1.000000E+06-1.000000E+06-1.000000E+06 1.000000E-06 1.000000E-06 1.000000E-10
+  1.000000E-10-1.000000E+10-1.000000E+10-1.000000E+10-1.000000E+10-1.000000E+10
+  1.000000E+10 1.000000E+10 1.000000E+06 1.000000E+06 1.000000E+06 1.000000E+00
+  1.000000E+00 1.000000E+10 1.000000E+10 1.000000E+10 1.000000E+10 1.000000E+10
+  1.000000E+10 1.000000E+10 0.000000E+00 1.000000E-10 1.000000E-10 1.000000E-10
+  1.000000E-10 5.000000E-01 5.000000E-01 6.250000E-02 8.037129E-02-1.000000E+00
+  1.000000E-10 1.000000E-10 1.000000E-10 1.000000E-10
+ FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFTFFTFFFFFTFTTFFFFFFFFFFFFFFFFFF
+ FTFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+ FTFFFFFFFFFFTFFFFFFFFFTFFFFFFFFFFFFFFFFTFFFFTFFFFFTFTFFFFFFFFFFFFFFFFFFFFFFFFF
+ FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFTTFFFFFFFFFFFFFFFFFFFF
+ FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFTTTTTFFFFFFFFFFFFFFFFFFFFFFFF
+ FFFFFFFFFFFFFFFFFFFFT
+          1         3       250         2
+ SW  LITERHNO
+  2.731500E+02 1.013250E+05 3.000000E-01 7.000000E-01 3.500000E+00 3.000000E-01
+  9.000000E+01
+     38
+ DOMAIN    PHASE_1_MAT    I       0                                              
+ GXMONI    PLOTALL        LT                                                     
+ OUTPUT    VTK            CYES                                                   
+ SOLPHI    P1             I       0                                              
+ PREPHI    P1             I      13                                              
+ SOLPHI    U1             I       0                                              
+ PREPHI    U1             I       0                                              
+ SOLPHI    V1             I       0                                              
+ PREPHI    V1             I       0                                              
+ SOLPHI    W1             I       0                                              
+ PREPHI    W1             I       0                                              
+ SOLPHI    KE             I       0                                              
+ PREPHI    KE             I      15                                              
+ SOLPHI    EP             I       0                                              
+ PREPHI    EP             I      15                                              
+ DRAG      CDCALC         CYES                                                   
+ DRAG      REFDEN         R1.189                                                 
+ DRAG      REFVEL         R10.                                                   
+ DRAG      REFARX         R0.112032                                              
+ DRAG      REFARY         R0.300672                                              
+ DRAG      REFARZ         R0.406166                                              
+ DRAG      MOMCENX        R0.                                                    
+ DRAG      MOMCENY        R0.                                                    
+ DRAG      MOMCENZ        R0.                                                    
+ OBJNAM    ^OB1           CSOLID                                                 
+ OBJTYP    ^OB1           CBLOCKAGE                                              
+ SOLID     MATERIAL       R198.                                                  
+ OBJNAM    ^OB2           CDOM_XMIN_I                                            
+ OBJTYP    ^OB2           CINLET                                                 
+ OBJNAM    ^OB3           CDOM_ZMIN_W                                            
+ OBJTYP    ^OB3           CPLATE                                                 
+ OBJNAM    ^OB4           CDOM_XMAX_O                                            
+ OBJTYP    ^OB4           COUTLET                                                
+ ARATIO    ^OB4           R1.                                                    
+ OBJNAM    ^OB5           CB5                                                    
+ OBJTYP    ^OB5           CNULL                                                  
+ FACETDAT  NUMOBJ         I       5                                              
+ MATERIAL  198            LT                                                     
+ FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+ FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+ FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+ FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+ FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+ FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+ FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+ FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+ SKIP    SKIP    KESOURCEKECHEN  ^OB1    ^OB2    ^OB3    ^OB4    
+       1     13      1     36      1     17      1     21      1      1
+       2     13      1     36      1     17      1     21      1      1
+       3     13      1     36      1     17      1     21      1      1
+       4     13      1     36      1     17      1     21      1      1
+       5     26      1      0      0      0      0      0      1      1
+       6      3      2      0      0      0      0      0      1      1
+       7      1      3     10      0      0      0      0      1      1
+       8      2      4      0      0      0      0      0      1      1
+       6      7      8      6      7      8      6      8      6      8
+       1      3      6      7      8      1      2      3      4      6
+       7      8      5
+  0.000000E+00 5.000000E+01-1.013000E+04 5.000000E+01 0.000000E+00 0.000000E+00
+  0.000000E+00 0.000000E+00-1.013000E+04 0.000000E+00 0.000000E+00 0.000000E+00
+  0.000000E+00 0.000000E+00 0.000000E+00 0.000000E+00 2.000000E-10 5.945000E+01
+  1.000000E+03 0.000000E+00-1.015000E+04-1.015000E+04-1.015000E+04-1.015000E+04
+  0.000000E+00 6.250000E-02-1.013000E+04-1.013000E+04 0.000000E+00-1.026000E+04
+ -1.015000E+04-1.015000E+04 2.000000E-10-1.015000E+04-1.015000E+04-1.015000E+04
+  2.000000E-10-1.015000E+04 0.000000E+00 8.037129E-02-1.013000E+04-1.013000E+04
+  0.000000E+00-1.026000E+04 0.000000E+00 1.980000E+02
+  2.532231E-02 5.317684E-02 8.381684E-02 1.175208E-01 1.512248E-01 1.818648E-01
+  2.097194E-01 2.350417E-01 2.458499E-01 2.577389E-01 2.708169E-01 2.838948E-01
+  2.957839E-01 3.065921E-01 3.482659E-01 3.941069E-01 4.445322E-01 4.999999E-01
+  5.554677E-01 6.058929E-01 6.517341E-01 6.934078E-01 7.042159E-01 7.161050E-01
+  7.291830E-01 7.422611E-01 7.541502E-01 7.649584E-01 7.902807E-01 8.181352E-01
+  8.487753E-01 8.824792E-01 9.161832E-01 9.468232E-01 9.746777E-01 1.000000E+00
+  2.938866E-01 3.047342E-01 3.145956E-01 3.235606E-01 3.615781E-01 4.033974E-01
+  4.493985E-01 4.999998E-01 5.506011E-01 5.966023E-01 6.384215E-01 6.764391E-01
+  6.854040E-01 6.952655E-01 7.061131E-01 7.180454E-01 7.299778E-01
+  2.447583E-03 1.497399E-02 2.875303E-02 4.390999E-02 6.058263E-02 7.892255E-02
+  9.909646E-02 1.212878E-01 1.456982E-01 1.725496E-01 2.020863E-01 2.345766E-01
+  2.703159E-01 3.028062E-01 3.323428E-01 3.591942E-01 3.836046E-01 4.057959E-01
+  4.259699E-01 4.443098E-01 4.609824E-01

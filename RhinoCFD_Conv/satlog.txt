@@ -1,0 +1,883 @@
+>    ----------------------------------------------------------
+>    PHOENICS 2021 v1.0.2 - SATELLITE
+>    (C) Copyright 2021
+>    Concentration Heat and Momentum Limited
+>    All rights reserved.
+>    Address:  Bakery House, 40 High Street
+>    Wimbledon, London, SW19 5AU, England
+>    tel:       +44 (0) 20-8947-7651
+>    fax:       +44 (0) 20-8879-3497
+>    e-mail:    phoenics@cham.co.uk
+>    web:       www.cham.co.uk
+>    ----------------------------------------------------------
+>    Code expiry date is the end  : jun 2024
+>    ----------------------------------------------------------
+>    Running with 64-bit Single Precision executable
+>    Working directory: C:\Users\samra\Desktop\DynexQCFD-F16
+################# pass   1 for direction   2
+*** region   1 size 4.245350E-01 no cells   1 ave size   4.2454E-01
+ dx 0.000000E+00 4.245350E-01 4.245350E-01 1.292353E-01
+ rat1 0.000000E+00 1/rat1 1.000000E+20
+ rat2 3.284977E+00 1/rat2 3.044161E-01
+ min cell 1.806212E-02 max cell 1.806212E+00 max fac    1.5000E+00   6.6667E-01
+ iadd   1 new no cells    2
+*** region   2 size 1.292353E-01 no cells   1 ave size   1.2924E-01
+ dx 4.245350E-01 1.292353E-01 1.292353E-01 6.986710E-01
+ rat1 3.044162E-01 1/rat1 3.284976E+00
+ rat2 1.849731E-01 1/rat2 5.406193E+00
+ min cell 1.806212E-02 max cell 1.806212E+00 max fac    1.5000E+00   6.6667E-01
+ iadd   1 new no cells    2
+*** region   3 size 6.986710E-01 no cells   1 ave size   6.9867E-01
+ dx 1.292353E-01 6.986710E-01 6.986710E-01 1.292357E-01
+ rat1 5.406192E+00 1/rat1 1.849731E-01
+ rat2 5.406178E+00 1/rat2 1.849736E-01
+ min cell 1.806212E-02 max cell 1.806212E+00 max fac    1.5000E+00   6.6667E-01
+ iadd   1 new no cells    2
+*** region   4 size 1.292356E-01 no cells   1 ave size   1.2924E-01
+ dx 6.986710E-01 1.292357E-01 1.292357E-01 4.245350E-01
+ rat1 1.849736E-01 1/rat1 5.406177E+00
+ rat2 3.044170E-01 1/rat2 3.284967E+00
+ min cell 1.806212E-02 max cell 1.806212E+00 max fac    1.5000E+00   6.6667E-01
+ iadd   1 new no cells    2
+*** region   5 size 4.245350E-01 no cells   1 ave size   4.2454E-01
+ dx 1.292357E-01 4.245350E-01 4.245350E-01 0.000000E+00
+ rat1 3.284967E+00 1/rat1 3.044170E-01
+ rat2 0.000000E+00 1/rat2 1.000000E+20
+ min cell 1.806212E-02 max cell 1.806212E+00 max fac    1.5000E+00   6.6667E-01
+ iadd   1 new no cells    2
+################# pass   2 for direction   2
+*** region   1 size 4.245350E-01 no cells   2 ave size   2.1227E-01
+ dx 0.000000E+00 2.122675E-01 2.122675E-01 6.461770E-02
+ rat1 0.000000E+00 1/rat1 1.000000E+20
+ rat2 3.284975E+00 1/rat2 3.044164E-01
+ min cell 1.806212E-02 max cell 1.806212E+00 max fac    1.5000E+00   6.6667E-01
+ iadd   1 new no cells    3
+*** region   2 size 1.292353E-01 no cells   2 ave size   6.4618E-02
+ dx 2.122675E-01 6.461770E-02 6.461762E-02 3.493355E-01
+ rat1 3.044164E-01 1/rat1 3.284975E+00
+ rat2 1.849729E-01 1/rat2 5.406196E+00
+ min cell 1.806212E-02 max cell 1.806212E+00 max fac    1.5000E+00   6.6667E-01
+ iadd   1 new no cells    3
+*** region   3 size 6.986710E-01 no cells   2 ave size   3.4934E-01
+ dx 6.461762E-02 3.493355E-01 3.493355E-01 6.461778E-02
+ rat1 5.406196E+00 1/rat1 1.849730E-01
+ rat2 5.406182E+00 1/rat2 1.849734E-01
+ min cell 1.806212E-02 max cell 1.806212E+00 max fac    1.5000E+00   6.6667E-01
+ iadd   1 new no cells    3
+*** region   4 size 1.292356E-01 no cells   2 ave size   6.4618E-02
+ dx 3.493355E-01 6.461778E-02 6.461789E-02 2.122675E-01
+ rat1 1.849734E-01 1/rat1 5.406182E+00
+ rat2 3.044173E-01 1/rat2 3.284965E+00
+ min cell 1.806212E-02 max cell 1.806212E+00 max fac    1.5000E+00   6.6667E-01
+ iadd   1 new no cells    3
+*** region   5 size 4.245350E-01 no cells   2 ave size   2.1227E-01
+ dx 6.461789E-02 2.122675E-01 2.122675E-01 0.000000E+00
+ rat1 3.284965E+00 1/rat1 3.044173E-01
+ rat2 0.000000E+00 1/rat2 1.000000E+20
+ min cell 1.806212E-02 max cell 1.806212E+00 max fac    1.5000E+00   6.6667E-01
+ iadd   1 new no cells    3
+################# pass   3 for direction   2
+*** region   1 size 4.245350E-01 no cells   3 ave size   1.4151E-01
+ dx 0.000000E+00 1.369468E-01 1.369468E-01 4.168884E-02
+ rat1 0.000000E+00 1/rat1 1.000000E+20
+ rat2 3.284975E+00 1/rat2 3.044163E-01
+ min cell 1.806212E-02 max cell 1.806212E+00 max fac    1.5000E+00   6.6667E-01
+ iadd   1 new no cells    4
+*** region   2 size 1.292353E-01 no cells   3 ave size   4.3078E-02
+ dx 1.369468E-01 4.168884E-02 4.168881E-02 2.253777E-01
+ rat1 3.044163E-01 1/rat1 3.284975E+00
+ rat2 1.849731E-01 1/rat2 5.406193E+00
+ min cell 1.806212E-02 max cell 1.806212E+00 max fac    1.5000E+00   6.6667E-01
+ iadd   1 new no cells    4
+*** region   3 size 6.986710E-01 no cells   3 ave size   2.3289E-01
+ dx 4.168881E-02 2.253777E-01 2.253776E-01 4.168897E-02
+ rat1 5.406192E+00 1/rat1 1.849731E-01
+ rat2 5.406169E+00 1/rat2 1.849739E-01
+ min cell 1.806212E-02 max cell 1.806212E+00 max fac    1.5000E+00   6.6667E-01
+ iadd   1 new no cells    4
+*** region   4 size 1.292356E-01 no cells   3 ave size   4.3079E-02
+ dx 2.253776E-01 4.168897E-02 4.168897E-02 1.369468E-01
+ rat1 1.849739E-01 1/rat1 5.406168E+00
+ rat2 3.044173E-01 1/rat2 3.284965E+00
+ min cell 1.806212E-02 max cell 1.806212E+00 max fac    1.5000E+00   6.6667E-01
+ iadd   1 new no cells    4
+*** region   5 size 4.245350E-01 no cells   3 ave size   1.4151E-01
+ dx 4.168897E-02 1.369468E-01 1.369467E-01 0.000000E+00
+ rat1 3.284965E+00 1/rat1 3.044172E-01
+ rat2 0.000000E+00 1/rat2 1.000000E+20
+ min cell 1.806212E-02 max cell 1.806212E+00 max fac    1.5000E+00   6.6667E-01
+ iadd   1 new no cells    4
+################# pass   4 for direction   2
+*** region   1 size 4.245350E-01 no cells   4 ave size   1.0613E-01
+ dx 0.000000E+00 1.010798E-01 1.010798E-01 3.077031E-02
+ rat1 0.000000E+00 1/rat1 1.000000E+20
+ rat2 3.284977E+00 1/rat2 3.044161E-01
+ min cell 1.806212E-02 max cell 1.806212E+00 max fac    1.5000E+00   6.6667E-01
+ iadd   1 new no cells    5
+*** region   2 size 1.292353E-01 no cells   4 ave size   3.2309E-02
+ dx 1.010798E-01 3.077031E-02 3.077029E-02 1.663502E-01
+ rat1 3.044162E-01 1/rat1 3.284976E+00
+ rat2 1.849729E-01 1/rat2 5.406196E+00
+ min cell 1.806212E-02 max cell 1.806212E+00 max fac    1.5000E+00   6.6667E-01
+ iadd   1 new no cells    5
+*** region   3 size 6.986710E-01 no cells   4 ave size   1.7467E-01
+ dx 3.077029E-02 1.663502E-01 1.663502E-01 3.077045E-02
+ rat1 5.406197E+00 1/rat1 1.849729E-01
+ rat2 5.406168E+00 1/rat2 1.849739E-01
+ min cell 1.806212E-02 max cell 1.806212E+00 max fac    1.5000E+00   6.6667E-01
+ iadd   1 new no cells    5
+*** region   4 size 1.292356E-01 no cells   4 ave size   3.2309E-02
+ dx 1.663502E-01 3.077045E-02 3.077045E-02 1.010798E-01
+ rat1 1.849739E-01 1/rat1 5.406168E+00
+ rat2 3.044174E-01 1/rat2 3.284964E+00
+ min cell 1.806212E-02 max cell 1.806212E+00 max fac    1.5000E+00   6.6667E-01
+ iadd   1 new no cells    5
+*** region   5 size 4.245350E-01 no cells   4 ave size   1.0613E-01
+ dx 3.077045E-02 1.010798E-01 1.010797E-01 0.000000E+00
+ rat1 3.284964E+00 1/rat1 3.044173E-01
+ rat2 0.000000E+00 1/rat2 1.000000E+20
+ min cell 1.806212E-02 max cell 1.806212E+00 max fac    1.5000E+00   6.6667E-01
+ iadd   1 new no cells    5
+################# pass   5 for direction   2
+*** region   1 size 4.245350E-01 no cells   5 ave size   8.4907E-02
+ dx 0.000000E+00 7.847227E-02 7.847229E-02 2.388824E-02
+ rat1 0.000000E+00 1/rat1 1.000000E+20
+ rat2 3.284976E+00 1/rat2 3.044162E-01
+ min cell 1.806212E-02 max cell 1.806212E+00 max fac    1.5000E+00   6.6667E-01
+ iadd   1 new no cells    6
+*** region   2 size 1.292353E-01 no cells   5 ave size   2.5847E-02
+ dx 7.847229E-02 2.388824E-02 2.388826E-02 1.291443E-01
+ rat1 3.044162E-01 1/rat1 3.284976E+00
+ rat2 1.849734E-01 1/rat2 5.406182E+00
+ min cell 1.806212E-02 max cell 1.806212E+00 max fac    1.5000E+00   6.6667E-01
+ iadd   1 new no cells    6
+*** region   3 size 6.986710E-01 no cells   5 ave size   1.3973E-01
+ dx 2.388826E-02 1.291443E-01 1.291443E-01 2.388826E-02
+ rat1 5.406183E+00 1/rat1 1.849734E-01
+ rat2 5.406180E+00 1/rat2 1.849735E-01
+ min cell 1.806212E-02 max cell 1.806212E+00 max fac    1.5000E+00   6.6667E-01
+ iadd   1 new no cells    6
+*** region   4 size 1.292356E-01 no cells   5 ave size   2.5847E-02
+ dx 1.291443E-01 2.388826E-02 2.388826E-02 7.847226E-02
+ rat1 1.849735E-01 1/rat1 5.406180E+00
+ rat2 3.044167E-01 1/rat2 3.284971E+00
+ min cell 1.806212E-02 max cell 1.806212E+00 max fac    1.5000E+00   6.6667E-01
+ iadd   1 new no cells    6
+*** region   5 size 4.245350E-01 no cells   5 ave size   8.4907E-02
+ dx 2.388826E-02 7.847226E-02 7.847237E-02 0.000000E+00
+ rat1 3.284971E+00 1/rat1 3.044167E-01
+ rat2 0.000000E+00 1/rat2 1.000000E+20
+ min cell 1.806212E-02 max cell 1.806212E+00 max fac    1.5000E+00   6.6667E-01
+ iadd   1 new no cells    6
+################# pass   6 for direction   2
+*** region   1 size 4.245350E-01 no cells   6 ave size   7.0756E-02
+ dx 0.000000E+00 6.412915E-02 6.412917E-02 1.952195E-02
+ rat1 0.000000E+00 1/rat1 1.000000E+20
+ rat2 3.284977E+00 1/rat2 3.044161E-01
+ min cell 1.806212E-02 max cell 1.806212E+00 max fac    1.5000E+00   6.6667E-01
+ iadd   1 new no cells    7
+*** region   2 size 1.292353E-01 no cells   6 ave size   2.1539E-02
+ dx 6.412917E-02 1.952195E-02 1.952195E-02 1.055394E-01
+ rat1 3.044161E-01 1/rat1 3.284977E+00
+ rat2 1.849731E-01 1/rat2 5.406191E+00
+ min cell 1.806212E-02 max cell 1.806212E+00 max fac    1.5000E+00   6.6667E-01
+ iadd   1 new no cells    7
+*** region   3 size 6.986710E-01 no cells   6 ave size   1.1645E-01
+ dx 1.952195E-02 1.055394E-01 1.055395E-01 1.952195E-02
+ rat1 5.406191E+00 1/rat1 1.849731E-01
+ rat2 5.406194E+00 1/rat2 1.849730E-01
+ min cell 1.806212E-02 max cell 1.806212E+00 max fac    1.5000E+00   6.6667E-01
+ iadd   1 new no cells    7
+*** region   4 size 1.292356E-01 no cells   6 ave size   2.1539E-02
+ dx 1.055395E-01 1.952195E-02 1.952195E-02 6.412912E-02
+ rat1 1.849730E-01 1/rat1 5.406194E+00
+ rat2 3.044164E-01 1/rat2 3.284975E+00
+ min cell 1.806212E-02 max cell 1.806212E+00 max fac    1.5000E+00   6.6667E-01
+ iadd   1 new no cells    7
+*** region   5 size 4.245350E-01 no cells   6 ave size   7.0756E-02
+ dx 1.952195E-02 6.412912E-02 6.412912E-02 0.000000E+00
+ rat1 3.284975E+00 1/rat1 3.044164E-01
+ rat2 0.000000E+00 1/rat2 1.000000E+20
+ min cell 1.806212E-02 max cell 1.806212E+00 max fac    1.5000E+00   6.6667E-01
+ iadd   1 new no cells    7
+################# pass   7 for direction   2
+*** region   1 size 4.245350E-01 no cells   7 ave size   6.0648E-02
+ dx 0.000000E+00 5.339391E-02 5.339389E-02 1.625400E-02
+ rat1 0.000000E+00 1/rat1 1.000000E+20
+ rat2 3.284968E+00 1/rat2 3.044169E-01
+ min cell 1.806212E-02 max cell 1.806212E+00 max fac    1.5000E+00   6.6667E-01
+ iadd   1 new no cells    8
+*** region   2 size 1.292353E-01 no cells   7 ave size   1.8462E-02
+ dx 5.339389E-02 1.625400E-02 1.625398E-02 8.787209E-02
+ rat1 3.044169E-01 1/rat1 3.284969E+00
+ rat2 1.849731E-01 1/rat2 5.406191E+00
+ min cell 1.806212E-02 max cell 1.806212E+00 max fac    1.5000E+00   6.6667E-01
+ iadd  -1 new no cells    6
+*** region   3 size 6.986710E-01 no cells   7 ave size   9.9810E-02
+ dx 1.625398E-02 8.787209E-02 8.787215E-02 1.625408E-02
+ rat1 5.406191E+00 1/rat1 1.849731E-01
+ rat2 5.406158E+00 1/rat2 1.849742E-01
+ min cell 1.806212E-02 max cell 1.806212E+00 max fac    1.5000E+00   6.6667E-01
+ iadd   1 new no cells    8
+*** region   4 size 1.292356E-01 no cells   7 ave size   1.8462E-02
+ dx 8.787215E-02 1.625408E-02 1.625398E-02 5.339394E-02
+ rat1 1.849742E-01 1/rat1 5.406159E+00
+ rat2 3.044161E-01 1/rat2 3.284977E+00
+ min cell 1.806212E-02 max cell 1.806212E+00 max fac    1.5000E+00   6.6667E-01
+ iadd  -1 new no cells    6
+*** region   5 size 4.245350E-01 no cells   7 ave size   6.0648E-02
+ dx 1.625398E-02 5.339394E-02 5.339383E-02 0.000000E+00
+ rat1 3.284977E+00 1/rat1 3.044161E-01
+ rat2 0.000000E+00 1/rat2 1.000000E+20
+ min cell 1.806212E-02 max cell 1.806212E+00 max fac    1.5000E+00   6.6667E-01
+ iadd   1 new no cells    8
+################# pass   8 for direction   2
+ Minimum ratio 1.849731E-01 in region     2
+ Maximim ratio 5.406191E+00 in region     3
+ Smallest cell 1.625398E-02 in region     2
+ Largest cell  8.787215E-02 in region     3
+################# pass   1 for direction   3
+*** region   1 size 3.133090E-01 no cells   1 ave size   3.1331E-01
+ dx 0.000000E+00 3.133090E-01 3.133090E-01 1.084733E-01
+ rat1 0.000000E+00 1/rat1 1.000000E+20
+ rat2 2.888351E+00 1/rat2 3.462183E-01
+ min cell 1.303565E-02 max cell 1.303565E+00 max fac    1.5000E+00   6.6667E-01
+ iadd   1 new no cells    2
+*** region   2 size 1.084733E-01 no cells   1 ave size   1.0847E-01
+ dx 3.133090E-01 1.084733E-01 1.084733E-01 4.600000E-01
+ rat1 3.462183E-01 1/rat1 2.888351E+00
+ rat2 2.358115E-01 1/rat2 4.240674E+00
+ min cell 1.303565E-02 max cell 1.303565E+00 max fac    1.5000E+00   6.6667E-01
+ iadd   1 new no cells    2
+*** region   3 size 4.600000E-01 no cells   1 ave size   4.6000E-01
+ dx 1.084733E-01 4.600000E-01 4.600000E-01 1.084733E-01
+ rat1 4.240674E+00 1/rat1 2.358115E-01
+ rat2 4.240675E+00 1/rat2 2.358115E-01
+ min cell 1.303565E-02 max cell 1.303565E+00 max fac    1.5000E+00   6.6667E-01
+ iadd   1 new no cells    2
+*** region   4 size 1.084733E-01 no cells   1 ave size   1.0847E-01
+ dx 4.600000E-01 1.084733E-01 1.084733E-01 3.133095E-01
+ rat1 2.358115E-01 1/rat1 4.240676E+00
+ rat2 3.462178E-01 1/rat2 2.888356E+00
+ min cell 1.303565E-02 max cell 1.303565E+00 max fac    1.5000E+00   6.6667E-01
+ iadd   1 new no cells    2
+*** region   5 size 3.133094E-01 no cells   1 ave size   3.1331E-01
+ dx 1.084733E-01 3.133095E-01 3.133095E-01 0.000000E+00
+ rat1 2.888356E+00 1/rat1 3.462177E-01
+ rat2 0.000000E+00 1/rat2 1.000000E+20
+ min cell 1.303565E-02 max cell 1.303565E+00 max fac    1.5000E+00   6.6667E-01
+ iadd   1 new no cells    2
+################# pass   2 for direction   3
+*** region   1 size 3.133090E-01 no cells   2 ave size   1.5665E-01
+ dx 0.000000E+00 1.641143E-01 1.491948E-01 5.423666E-02
+ rat1 0.000000E+00 1/rat1 1.000000E+20
+ rat2 2.750810E+00 1/rat2 3.635293E-01
+ min cell 1.303565E-02 max cell 1.303565E+00 max fac    1.5000E+00   6.6667E-01
+ iadd   1 new no cells    3
+*** region   2 size 1.084733E-01 no cells   2 ave size   5.4237E-02
+ dx 1.491948E-01 5.423666E-02 5.423664E-02 2.299999E-01
+ rat1 3.635293E-01 1/rat1 2.750810E+00
+ rat2 2.358116E-01 1/rat2 4.240674E+00
+ min cell 1.303565E-02 max cell 1.303565E+00 max fac    1.5000E+00   6.6667E-01
+ iadd   1 new no cells    3
+*** region   3 size 4.600000E-01 no cells   2 ave size   2.3000E-01
+ dx 5.423664E-02 2.299999E-01 2.300000E-01 5.423661E-02
+ rat1 4.240674E+00 1/rat1 2.358116E-01
+ rat2 4.240679E+00 1/rat2 2.358113E-01
+ min cell 1.303565E-02 max cell 1.303565E+00 max fac    1.5000E+00   6.6667E-01
+ iadd   1 new no cells    3
+*** region   4 size 1.084733E-01 no cells   2 ave size   5.4237E-02
+ dx 2.300000E-01 5.423661E-02 5.423668E-02 1.491949E-01
+ rat1 2.358113E-01 1/rat1 4.240679E+00
+ rat2 3.635290E-01 1/rat2 2.750813E+00
+ min cell 1.303565E-02 max cell 1.303565E+00 max fac    1.5000E+00   6.6667E-01
+ iadd   1 new no cells    3
+*** region   5 size 3.133094E-01 no cells   2 ave size   1.5665E-01
+ dx 5.423668E-02 1.491949E-01 1.641145E-01 0.000000E+00
+ rat1 2.750812E+00 1/rat1 3.635290E-01
+ rat2 0.000000E+00 1/rat2 1.000000E+20
+ min cell 1.303565E-02 max cell 1.303565E+00 max fac    1.5000E+00   6.6667E-01
+ iadd   1 new no cells    3
+################# pass   3 for direction   3
+*** region   1 size 3.133090E-01 no cells   3 ave size   1.0444E-01
+ dx 0.000000E+00 1.145329E-01 9.465528E-02 3.499140E-02
+ rat1 0.000000E+00 1/rat1 1.000000E+20
+ rat2 2.705101E+00 1/rat2 3.696719E-01
+ min cell 1.303565E-02 max cell 1.303565E+00 max fac    1.5000E+00   6.6667E-01
+ iadd   1 new no cells    4
+*** region   2 size 1.084733E-01 no cells   3 ave size   3.6158E-02
+ dx 9.465528E-02 3.499140E-02 3.499138E-02 1.483871E-01
+ rat1 3.696719E-01 1/rat1 2.705101E+00
+ rat2 2.358115E-01 1/rat2 4.240674E+00
+ min cell 1.303565E-02 max cell 1.303565E+00 max fac    1.5000E+00   6.6667E-01
+ iadd   1 new no cells    4
+*** region   3 size 4.600000E-01 no cells   3 ave size   1.5333E-01
+ dx 3.499138E-02 1.483871E-01 1.483871E-01 3.499138E-02
+ rat1 4.240675E+00 1/rat1 2.358115E-01
+ rat2 4.240676E+00 1/rat2 2.358115E-01
+ min cell 1.303565E-02 max cell 1.303565E+00 max fac    1.5000E+00   6.6667E-01
+ iadd   1 new no cells    4
+*** region   4 size 1.084733E-01 no cells   3 ave size   3.6158E-02
+ dx 1.483871E-01 3.499138E-02 3.499138E-02 9.465538E-02
+ rat1 2.358115E-01 1/rat1 4.240676E+00
+ rat2 3.696713E-01 1/rat2 2.705106E+00
+ min cell 1.303565E-02 max cell 1.303565E+00 max fac    1.5000E+00   6.6667E-01
+ iadd   1 new no cells    4
+*** region   5 size 3.133094E-01 no cells   3 ave size   1.0444E-01
+ dx 3.499138E-02 9.465538E-02 1.145331E-01 0.000000E+00
+ rat1 2.705106E+00 1/rat1 3.696713E-01
+ rat2 0.000000E+00 1/rat2 1.000000E+20
+ min cell 1.303565E-02 max cell 1.303565E+00 max fac    1.5000E+00   6.6667E-01
+ iadd   1 new no cells    4
+################# pass   4 for direction   3
+*** region   1 size 3.133090E-01 no cells   4 ave size   7.8327E-02
+ dx 0.000000E+00 8.985440E-02 6.750895E-02 2.582697E-02
+ rat1 0.000000E+00 1/rat1 1.000000E+20
+ rat2 2.613893E+00 1/rat2 3.825711E-01
+ min cell 1.303565E-02 max cell 1.303565E+00 max fac    1.5000E+00   6.6667E-01
+ iadd   1 new no cells    5
+*** region   2 size 1.084733E-01 no cells   4 ave size   2.7118E-02
+ dx 6.750895E-02 2.582697E-02 2.582699E-02 1.095238E-01
+ rat1 3.825711E-01 1/rat1 2.613893E+00
+ rat2 2.358117E-01 1/rat2 4.240673E+00
+ min cell 1.303565E-02 max cell 1.303565E+00 max fac    1.5000E+00   6.6667E-01
+ iadd   1 new no cells    5
+*** region   3 size 4.600000E-01 no cells   4 ave size   1.1500E-01
+ dx 2.582699E-02 1.095238E-01 1.095238E-01 2.582699E-02
+ rat1 4.240673E+00 1/rat1 2.358117E-01
+ rat2 4.240671E+00 1/rat2 2.358118E-01
+ min cell 1.303565E-02 max cell 1.303565E+00 max fac    1.5000E+00   6.6667E-01
+ iadd   1 new no cells    5
+*** region   4 size 1.084733E-01 no cells   4 ave size   2.7118E-02
+ dx 1.095238E-01 2.582699E-02 2.582699E-02 6.750907E-02
+ rat1 2.358117E-01 1/rat1 4.240672E+00
+ rat2 3.825707E-01 1/rat2 2.613896E+00
+ min cell 1.303565E-02 max cell 1.303565E+00 max fac    1.5000E+00   6.6667E-01
+ iadd   1 new no cells    5
+*** region   5 size 3.133094E-01 no cells   4 ave size   7.8327E-02
+ dx 2.582699E-02 6.750907E-02 8.985462E-02 0.000000E+00
+ rat1 2.613896E+00 1/rat1 3.825707E-01
+ rat2 0.000000E+00 1/rat2 1.000000E+20
+ min cell 1.303565E-02 max cell 1.303565E+00 max fac    1.5000E+00   6.6667E-01
+ iadd   1 new no cells    5
+################# pass   5 for direction   3
+*** region   1 size 3.133090E-01 no cells   5 ave size   6.2662E-02
+ dx 0.000000E+00 7.513648E-02 5.131924E-02 2.005055E-02
+ rat1 0.000000E+00 1/rat1 1.000000E+20
+ rat2 2.559493E+00 1/rat2 3.907024E-01
+ min cell 1.303565E-02 max cell 1.303565E+00 max fac    1.5000E+00   6.6667E-01
+ iadd   1 new no cells    6
+*** region   2 size 1.084733E-01 no cells   5 ave size   2.1695E-02
+ dx 5.131924E-02 2.005055E-02 2.005053E-02 8.502768E-02
+ rat1 3.907025E-01 1/rat1 2.559492E+00
+ rat2 2.358118E-01 1/rat2 4.240669E+00
+ min cell 1.303565E-02 max cell 1.303565E+00 max fac    1.5000E+00   6.6667E-01
+ iadd   1 new no cells    6
+*** region   3 size 4.600000E-01 no cells   5 ave size   9.2000E-02
+ dx 2.005053E-02 8.502768E-02 8.502768E-02 2.005049E-02
+ rat1 4.240669E+00 1/rat1 2.358118E-01
+ rat2 4.240677E+00 1/rat2 2.358114E-01
+ min cell 1.303565E-02 max cell 1.303565E+00 max fac    1.5000E+00   6.6667E-01
+ iadd   1 new no cells    6
+*** region   4 size 1.084733E-01 no cells   5 ave size   2.1695E-02
+ dx 8.502768E-02 2.005049E-02 2.005049E-02 5.131926E-02
+ rat1 2.358114E-01 1/rat1 4.240678E+00
+ rat2 3.907012E-01 1/rat2 2.559501E+00
+ min cell 1.303565E-02 max cell 1.303565E+00 max fac    1.5000E+00   6.6667E-01
+ iadd   1 new no cells    6
+*** region   5 size 3.133094E-01 no cells   5 ave size   6.2662E-02
+ dx 2.005049E-02 5.131926E-02 7.513658E-02 0.000000E+00
+ rat1 2.559501E+00 1/rat1 3.907012E-01
+ rat2 0.000000E+00 1/rat2 1.000000E+20
+ min cell 1.303565E-02 max cell 1.303565E+00 max fac    1.5000E+00   6.6667E-01
+ iadd   1 new no cells    6
+################# pass   6 for direction   3
+*** region   1 size 3.133090E-01 no cells   6 ave size   5.2218E-02
+ dx 0.000000E+00 6.539825E-02 4.060715E-02 1.638571E-02
+ rat1 0.000000E+00 1/rat1 1.000000E+20
+ rat2 2.478206E+00 1/rat2 4.035177E-01
+ min cell 1.303565E-02 max cell 1.303565E+00 max fac    1.5000E+00   6.6667E-01
+ iadd   1 new no cells    7
+*** region   2 size 1.084733E-01 no cells   6 ave size   1.8079E-02
+ dx 4.060715E-02 1.638571E-02 1.638573E-02 6.948638E-02
+ rat1 4.035177E-01 1/rat1 2.478206E+00
+ rat2 2.358121E-01 1/rat2 4.240665E+00
+ min cell 1.303565E-02 max cell 1.303565E+00 max fac    1.5000E+00   6.6667E-01
+ iadd   1 new no cells    7
+*** region   3 size 4.600000E-01 no cells   6 ave size   7.6667E-02
+ dx 1.638573E-02 6.948638E-02 6.948642E-02 1.638569E-02
+ rat1 4.240665E+00 1/rat1 2.358121E-01
+ rat2 4.240677E+00 1/rat2 2.358114E-01
+ min cell 1.303565E-02 max cell 1.303565E+00 max fac    1.5000E+00   6.6667E-01
+ iadd   1 new no cells    7
+*** region   4 size 1.084733E-01 no cells   6 ave size   1.8079E-02
+ dx 6.948642E-02 1.638569E-02 1.638569E-02 4.060720E-02
+ rat1 2.358114E-01 1/rat1 4.240678E+00
+ rat2 4.035169E-01 1/rat2 2.478211E+00
+ min cell 1.303565E-02 max cell 1.303565E+00 max fac    1.5000E+00   6.6667E-01
+ iadd   1 new no cells    7
+*** region   5 size 3.133094E-01 no cells   6 ave size   5.2218E-02
+ dx 1.638569E-02 4.060720E-02 6.539839E-02 0.000000E+00
+ rat1 2.478211E+00 1/rat1 4.035169E-01
+ rat2 0.000000E+00 1/rat2 1.000000E+20
+ min cell 1.303565E-02 max cell 1.303565E+00 max fac    1.5000E+00   6.6667E-01
+ iadd   1 new no cells    7
+################# pass   7 for direction   3
+*** region   1 size 3.133090E-01 no cells   7 ave size   4.4758E-02
+ dx 0.000000E+00 5.850491E-02 3.302450E-02 1.364272E-02
+ rat1 0.000000E+00 1/rat1 1.000000E+20
+ rat2 2.420669E+00 1/rat2 4.131090E-01
+ min cell 1.303565E-02 max cell 1.303565E+00 max fac    1.5000E+00   6.6667E-01
+ iadd   1 new no cells    8
+*** region   2 size 1.084733E-01 no cells   7 ave size   1.5496E-02
+ dx 3.302450E-02 1.364272E-02 1.364273E-02 5.785432E-02
+ rat1 4.131089E-01 1/rat1 2.420669E+00
+ rat2 2.358118E-01 1/rat2 4.240669E+00
+ min cell 1.303565E-02 max cell 1.303565E+00 max fac    1.5000E+00   6.6667E-01
+ iadd   1 new no cells    8
+*** region   3 size 4.600000E-01 no cells   7 ave size   6.5714E-02
+ dx 1.364273E-02 5.785432E-02 5.785440E-02 1.364270E-02
+ rat1 4.240669E+00 1/rat1 2.358118E-01
+ rat2 4.240687E+00 1/rat2 2.358109E-01
+ min cell 1.303565E-02 max cell 1.303565E+00 max fac    1.5000E+00   6.6667E-01
+ iadd   1 new no cells    8
+*** region   4 size 1.084733E-01 no cells   7 ave size   1.5496E-02
+ dx 5.785440E-02 1.364270E-02 1.364270E-02 3.302452E-02
+ rat1 2.358109E-01 1/rat1 4.240686E+00
+ rat2 4.131081E-01 1/rat2 2.420674E+00
+ min cell 1.303565E-02 max cell 1.303565E+00 max fac    1.5000E+00   6.6667E-01
+ iadd   1 new no cells    8
+*** region   5 size 3.133094E-01 no cells   7 ave size   4.4758E-02
+ dx 1.364270E-02 3.302452E-02 5.850497E-02 0.000000E+00
+ rat1 2.420674E+00 1/rat1 4.131081E-01
+ rat2 0.000000E+00 1/rat2 1.000000E+20
+ min cell 1.303565E-02 max cell 1.303565E+00 max fac    1.5000E+00   6.6667E-01
+ iadd   1 new no cells    8
+################# pass   8 for direction   3
+ Minimum ratio 2.358109E-01 in region     4
+ Maximim ratio 4.240687E+00 in region     3
+ Smallest cell 1.364270E-02 in region     4
+ Largest cell  5.785440E-02 in region     3
+################# pass   1 for direction   4
+*** region   1 size 1.035720E-03 no cells   1 ave size   1.0357E-03
+ dx 0.000000E+00 1.035720E-03 1.035720E-03 2.115790E-01
+ rat1 0.000000E+00 1/rat1 1.000000E+20
+ rat2 4.895210E-03 1/rat2 2.042813E+02
+ min cell 4.231603E-03 max cell 4.231603E-01 max fac    1.5000E+00   6.6667E-01
+ iadd  -1 new no cells    1
+*** region   2 size 2.115790E-01 no cells   1 ave size   2.1158E-01
+ dx 1.035720E-03 2.115790E-01 2.115790E-01 2.105456E-01
+ rat1 2.042820E+02 1/rat1 4.895193E-03
+ rat2 1.004908E+00 1/rat2 9.951156E-01
+ min cell 4.231603E-03 max cell 4.231603E-01 max fac    1.5000E+00   6.6667E-01
+ iadd   1 new no cells    2
+*** region   3 size 2.105456E-01 no cells   1 ave size   2.1055E-01
+ dx 2.115790E-01 2.105456E-01 2.105456E-01 0.000000E+00
+ rat1 9.951157E-01 1/rat1 1.004908E+00
+ rat2 0.000000E+00 1/rat2 1.000000E+20
+ min cell 4.231603E-03 max cell 4.231603E-01 max fac    1.5000E+00   6.6667E-01
+ iadd   1 new no cells    2
+################# pass   2 for direction   4
+*** region   1 size 1.035720E-03 no cells   1 ave size   1.0357E-03
+ dx 0.000000E+00 1.035720E-03 1.035720E-03 1.057895E-01
+ rat1 0.000000E+00 1/rat1 1.000000E+20
+ rat2 9.790361E-03 1/rat2 1.021413E+02
+ min cell 4.231603E-03 max cell 4.231603E-01 max fac    1.5000E+00   6.6667E-01
+ iadd  -1 new no cells    1
+*** region   2 size 2.115790E-01 no cells   2 ave size   1.0579E-01
+ dx 1.035720E-03 1.057895E-01 1.057895E-01 1.002598E-01
+ rat1 1.021410E+02 1/rat1 9.790387E-03
+ rat2 1.055154E+00 1/rat2 9.477292E-01
+ min cell 4.231603E-03 max cell 4.231603E-01 max fac    1.5000E+00   6.6667E-01
+ iadd   1 new no cells    3
+*** region   3 size 2.105456E-01 no cells   2 ave size   1.0527E-01
+ dx 1.057895E-01 1.002598E-01 1.102858E-01 0.000000E+00
+ rat1 9.477292E-01 1/rat1 1.055154E+00
+ rat2 0.000000E+00 1/rat2 1.000000E+20
+ min cell 4.231603E-03 max cell 4.231603E-01 max fac    1.5000E+00   6.6667E-01
+ iadd   1 new no cells    3
+################# pass   3 for direction   4
+*** region   1 size 1.035720E-03 no cells   1 ave size   1.0357E-03
+ dx 0.000000E+00 1.035720E-03 1.035720E-03 6.825128E-02
+ rat1 0.000000E+00 1/rat1 1.000000E+20
+ rat2 1.517510E-02 1/rat2 6.589741E+01
+ min cell 4.231603E-03 max cell 4.231603E-01 max fac    1.5000E+00   6.6667E-01
+ iadd  -1 new no cells    1
+*** region   2 size 2.115790E-01 no cells   3 ave size   7.0526E-02
+ dx 1.035720E-03 6.825128E-02 6.825130E-02 6.360895E-02
+ rat1 6.589742E+01 1/rat1 1.517510E-02
+ rat2 1.072983E+00 1/rat2 9.319816E-01
+ min cell 4.231603E-03 max cell 4.231603E-01 max fac    1.5000E+00   6.6667E-01
+ iadd   1 new no cells    4
+*** region   3 size 2.105456E-01 no cells   3 ave size   7.0182E-02
+ dx 6.825130E-02 6.360895E-02 7.696681E-02 0.000000E+00
+ rat1 9.319816E-01 1/rat1 1.072983E+00
+ rat2 0.000000E+00 1/rat2 1.000000E+20
+ min cell 4.231603E-03 max cell 4.231603E-01 max fac    1.5000E+00   6.6667E-01
+ iadd   1 new no cells    4
+################# pass   4 for direction   4
+*** region   1 size 1.035720E-03 no cells   1 ave size   1.0357E-03
+ dx 0.000000E+00 1.035720E-03 1.035720E-03 5.037595E-02
+ rat1 0.000000E+00 1/rat1 1.000000E+20
+ rat2 2.055979E-02 1/rat2 4.863863E+01
+ min cell 4.231603E-03 max cell 4.231603E-01 max fac    1.5000E+00   6.6667E-01
+ iadd  -1 new no cells    1
+*** region   2 size 2.115790E-01 no cells   4 ave size   5.2895E-02
+ dx 1.035720E-03 5.037595E-02 5.037596E-02 4.536643E-02
+ rat1 4.863858E+01 1/rat1 2.055981E-02
+ rat2 1.110424E+00 1/rat2 9.005570E-01
+ min cell 4.231603E-03 max cell 4.231603E-01 max fac    1.5000E+00   6.6667E-01
+ iadd   1 new no cells    5
+*** region   3 size 2.105456E-01 no cells   4 ave size   5.2636E-02
+ dx 5.037596E-02 4.536643E-02 6.038271E-02 0.000000E+00
+ rat1 9.005571E-01 1/rat1 1.110424E+00
+ rat2 0.000000E+00 1/rat2 1.000000E+20
+ min cell 4.231603E-03 max cell 4.231603E-01 max fac    1.5000E+00   6.6667E-01
+ iadd   1 new no cells    5
+################# pass   5 for direction   4
+*** region   1 size 1.035720E-03 no cells   1 ave size   1.0357E-03
+ dx 0.000000E+00 1.035720E-03 1.035720E-03 3.910887E-02
+ rat1 0.000000E+00 1/rat1 1.000000E+20
+ rat2 2.648300E-02 1/rat2 3.776007E+01
+ min cell 4.231603E-03 max cell 4.231603E-01 max fac    1.5000E+00   6.6667E-01
+ iadd  -1 new no cells    1
+*** region   2 size 2.115790E-01 no cells   5 ave size   4.2316E-02
+ dx 1.035720E-03 3.910887E-02 3.910888E-02 3.448683E-02
+ rat1 3.776007E+01 1/rat1 2.648300E-02
+ rat2 1.134024E+00 1/rat2 8.818158E-01
+ min cell 4.231603E-03 max cell 4.231603E-01 max fac    1.5000E+00   6.6667E-01
+ iadd   1 new no cells    6
+*** region   3 size 2.105456E-01 no cells   5 ave size   4.2109E-02
+ dx 3.910888E-02 3.448683E-02 5.049216E-02 0.000000E+00
+ rat1 8.818158E-01 1/rat1 1.134024E+00
+ rat2 0.000000E+00 1/rat2 1.000000E+20
+ min cell 4.231603E-03 max cell 4.231603E-01 max fac    1.5000E+00   6.6667E-01
+ iadd   1 new no cells    6
+################# pass   6 for direction   4
+*** region   1 size 1.035720E-03 no cells   1 ave size   1.0357E-03
+ dx 0.000000E+00 1.035720E-03 1.035720E-03 3.196057E-02
+ rat1 0.000000E+00 1/rat1 1.000000E+20
+ rat2 3.240621E-02 1/rat2 3.085828E+01
+ min cell 4.231603E-03 max cell 4.231603E-01 max fac    1.5000E+00   6.6667E-01
+ iadd  -1 new no cells    1
+*** region   2 size 2.115790E-01 no cells   6 ave size   3.5263E-02
+ dx 1.035720E-03 3.196057E-02 3.196057E-02 2.728825E-02
+ rat1 3.085831E+01 1/rat1 3.240618E-02
+ rat2 1.171221E+00 1/rat2 8.538102E-01
+ min cell 4.231603E-03 max cell 4.231603E-01 max fac    1.5000E+00   6.6667E-01
+ iadd   1 new no cells    7
+*** region   3 size 2.105456E-01 no cells   6 ave size   3.5091E-02
+ dx 3.196057E-02 2.728825E-02 4.394805E-02 0.000000E+00
+ rat1 8.538102E-01 1/rat1 1.171221E+00
+ rat2 0.000000E+00 1/rat2 1.000000E+20
+ min cell 4.231603E-03 max cell 4.231603E-01 max fac    1.5000E+00   6.6667E-01
+ iadd   1 new no cells    7
+################# pass   7 for direction   4
+*** region   1 size 1.035720E-03 no cells   1 ave size   1.0357E-03
+ dx 0.000000E+00 1.035720E-03 1.035720E-03 2.661036E-02
+ rat1 0.000000E+00 1/rat1 1.000000E+20
+ rat2 3.892171E-02 1/rat2 2.569260E+01
+ min cell 4.231603E-03 max cell 4.231603E-01 max fac    1.5000E+00   6.6667E-01
+ iadd  -1 new no cells    1
+*** region   2 size 2.115790E-01 no cells   7 ave size   3.0226E-02
+ dx 1.035720E-03 2.661036E-02 2.661037E-02 2.219264E-02
+ rat1 2.569262E+01 1/rat1 3.892168E-02
+ rat2 1.199063E+00 1/rat2 8.339847E-01
+ min cell 4.231603E-03 max cell 4.231603E-01 max fac    1.5000E+00   6.6667E-01
+ iadd   1 new no cells    8
+*** region   3 size 2.105456E-01 no cells   7 ave size   3.0078E-02
+ dx 2.661037E-02 2.219264E-02 3.931562E-02 0.000000E+00
+ rat1 8.339847E-01 1/rat1 1.199063E+00
+ rat2 0.000000E+00 1/rat2 1.000000E+20
+ min cell 4.231603E-03 max cell 4.231603E-01 max fac    1.5000E+00   6.6667E-01
+ iadd   1 new no cells    8
+################# pass   8 for direction   4
+*** region   1 size 1.035720E-03 no cells   1 ave size   1.0357E-03
+ dx 0.000000E+00 1.035720E-03 1.035720E-03 2.279455E-02
+ rat1 0.000000E+00 1/rat1 1.000000E+20
+ rat2 4.543716E-02 1/rat2 2.200842E+01
+ min cell 4.231603E-03 max cell 4.231603E-01 max fac    1.5000E+00   6.6667E-01
+ iadd  -1 new no cells    1
+*** region   2 size 2.115790E-01 no cells   8 ave size   2.6447E-02
+ dx 1.035720E-03 2.279455E-02 2.279454E-02 1.841093E-02
+ rat1 2.200841E+01 1/rat1 4.543718E-02
+ rat2 1.238098E+00 1/rat2 8.076903E-01
+ min cell 4.231603E-03 max cell 4.231603E-01 max fac    1.5000E+00   6.6667E-01
+ iadd   1 new no cells    9
+*** region   3 size 2.105456E-01 no cells   8 ave size   2.6318E-02
+ dx 2.279454E-02 1.841093E-02 3.587774E-02 0.000000E+00
+ rat1 8.076902E-01 1/rat1 1.238099E+00
+ rat2 0.000000E+00 1/rat2 1.000000E+20
+ min cell 4.231603E-03 max cell 4.231603E-01 max fac    1.5000E+00   6.6667E-01
+ iadd   1 new no cells    9
+################# pass   9 for direction   4
+*** region   1 size 1.035720E-03 no cells   1 ave size   1.0357E-03
+ dx 0.000000E+00 1.035720E-03 1.035720E-03 1.968891E-02
+ rat1 0.000000E+00 1/rat1 1.000000E+20
+ rat2 5.260426E-02 1/rat2 1.900987E+01
+ min cell 4.231603E-03 max cell 4.231603E-01 max fac    1.5000E+00   6.6667E-01
+ iadd  -1 new no cells    1
+*** region   2 size 2.115790E-01 no cells   9 ave size   2.3509E-02
+ dx 1.035720E-03 1.968891E-02 1.968892E-02 1.550469E-02
+ rat1 1.900987E+01 1/rat1 5.260424E-02
+ rat2 1.269869E+00 1/rat2 7.874830E-01
+ min cell 4.231603E-03 max cell 4.231603E-01 max fac    1.5000E+00   6.6667E-01
+ iadd   1 new no cells   10
+*** region   3 size 2.105456E-01 no cells   9 ave size   2.3394E-02
+ dx 1.968892E-02 1.550469E-02 3.323565E-02 0.000000E+00
+ rat1 7.874829E-01 1/rat1 1.269869E+00
+ rat2 0.000000E+00 1/rat2 1.000000E+20
+ min cell 4.231603E-03 max cell 4.231603E-01 max fac    1.5000E+00   6.6667E-01
+ iadd   1 new no cells   10
+################# pass  10 for direction   4
+*** region   1 size 1.035720E-03 no cells   1 ave size   1.0357E-03
+ dx 0.000000E+00 1.035720E-03 1.035720E-03 1.732805E-02
+ rat1 0.000000E+00 1/rat1 1.000000E+20
+ rat2 5.977130E-02 1/rat2 1.673044E+01
+ min cell 4.231603E-03 max cell 4.231603E-01 max fac    1.5000E+00   6.6667E-01
+ iadd  -1 new no cells    1
+*** region   2 size 2.115790E-01 no cells  10 ave size   2.1158E-02
+ dx 1.035720E-03 1.732805E-02 1.732807E-02 1.321075E-02
+ rat1 1.673044E+01 1/rat1 5.977129E-02
+ rat2 1.311665E+00 1/rat2 7.623897E-01
+ min cell 4.231603E-03 max cell 4.231603E-01 max fac    1.5000E+00   6.6667E-01
+ iadd   1 new no cells   11
+*** region   3 size 2.105456E-01 no cells  10 ave size   2.1055E-02
+ dx 1.732807E-02 1.321075E-02 3.115027E-02 0.000000E+00
+ rat1 7.623897E-01 1/rat1 1.311665E+00
+ rat2 0.000000E+00 1/rat2 1.000000E+20
+ min cell 4.231603E-03 max cell 4.231603E-01 max fac    1.5000E+00   6.6667E-01
+ iadd   1 new no cells   11
+################# pass  11 for direction   4
+*** region   1 size 1.035720E-03 no cells   1 ave size   1.0357E-03
+ dx 0.000000E+00 1.035720E-03 1.035720E-03 1.530884E-02
+ rat1 0.000000E+00 1/rat1 1.000000E+20
+ rat2 6.765503E-02 1/rat2 1.478087E+01
+ min cell 4.231603E-03 max cell 4.231603E-01 max fac    1.5000E+00   6.6667E-01
+ iadd  -1 new no cells    1
+*** region   2 size 2.115790E-01 no cells  11 ave size   1.9234E-02
+ dx 1.035720E-03 1.530884E-02 1.530885E-02 1.136170E-02
+ rat1 1.478086E+01 1/rat1 6.765505E-02
+ rat2 1.347409E+00 1/rat2 7.421652E-01
+ min cell 4.231603E-03 max cell 4.231603E-01 max fac    1.5000E+00   6.6667E-01
+ iadd   1 new no cells   12
+*** region   3 size 2.105456E-01 no cells  11 ave size   1.9141E-02
+ dx 1.530885E-02 1.136170E-02 2.946933E-02 0.000000E+00
+ rat1 7.421652E-01 1/rat1 1.347409E+00
+ rat2 0.000000E+00 1/rat2 1.000000E+20
+ min cell 4.231603E-03 max cell 4.231603E-01 max fac    1.5000E+00   6.6667E-01
+ iadd   1 new no cells   12
+################# pass  12 for direction   4
+*** region   1 size 1.035720E-03 no cells   1 ave size   1.0357E-03
+ dx 0.000000E+00 1.035720E-03 1.035720E-03 1.371110E-02
+ rat1 0.000000E+00 1/rat1 1.000000E+20
+ rat2 7.553881E-02 1/rat2 1.323823E+01
+ min cell 4.231603E-03 max cell 4.231603E-01 max fac    1.5000E+00   6.6667E-01
+ iadd  -1 new no cells    1
+*** region   2 size 2.115790E-01 no cells  12 ave size   1.7632E-02
+ dx 1.035720E-03 1.371110E-02 1.371111E-02 9.845810E-03
+ rat1 1.323823E+01 1/rat1 7.553881E-02
+ rat2 1.392583E+00 1/rat2 7.180902E-01
+ min cell 4.231603E-03 max cell 4.231603E-01 max fac    1.5000E+00   6.6667E-01
+ iadd   1 new no cells   13
+*** region   3 size 2.105456E-01 no cells  12 ave size   1.7545E-02
+ dx 1.371111E-02 9.845810E-03 2.809123E-02 0.000000E+00
+ rat1 7.180902E-01 1/rat1 1.392583E+00
+ rat2 0.000000E+00 1/rat2 1.000000E+20
+ min cell 4.231603E-03 max cell 4.231603E-01 max fac    1.5000E+00   6.6667E-01
+ iadd   1 new no cells   13
+################# pass  13 for direction   4
+*** region   1 size 1.035720E-03 no cells   1 ave size   1.0357E-03
+ dx 0.000000E+00 1.035720E-03 1.035720E-03 1.229911E-02
+ rat1 0.000000E+00 1/rat1 1.000000E+20
+ rat2 8.421093E-02 1/rat2 1.187494E+01
+ min cell 4.231603E-03 max cell 4.231603E-01 max fac    1.5000E+00   6.6667E-01
+ iadd  -1 new no cells    1
+*** region   2 size 2.115790E-01 no cells  13 ave size   1.6275E-02
+ dx 1.035720E-03 1.229911E-02 1.229912E-02 8.585754E-03
+ rat1 1.187494E+01 1/rat1 8.421095E-02
+ rat2 1.432504E+00 1/rat2 6.980785E-01
+ min cell 4.231603E-03 max cell 4.231603E-01 max fac    1.5000E+00   6.6667E-01
+ iadd   1 new no cells   14
+*** region   3 size 2.105456E-01 no cells  13 ave size   1.6196E-02
+ dx 1.229912E-02 8.585754E-03 2.694574E-02 0.000000E+00
+ rat1 6.980786E-01 1/rat1 1.432503E+00
+ rat2 0.000000E+00 1/rat2 1.000000E+20
+ min cell 4.231603E-03 max cell 4.231603E-01 max fac    1.5000E+00   6.6667E-01
+ iadd   1 new no cells   14
+################# pass  14 for direction   4
+*** region   1 size 1.035720E-03 no cells   1 ave size   1.0357E-03
+ dx 0.000000E+00 1.035720E-03 1.035720E-03 1.115080E-02
+ rat1 0.000000E+00 1/rat1 1.000000E+20
+ rat2 9.288305E-02 1/rat2 1.076623E+01
+ min cell 4.231603E-03 max cell 4.231603E-01 max fac    1.5000E+00   6.6667E-01
+ iadd  -1 new no cells    1
+*** region   2 size 2.115790E-01 no cells  14 ave size   1.5113E-02
+ dx 1.035720E-03 1.115080E-02 1.115080E-02 7.526214E-03
+ rat1 1.076622E+01 1/rat1 9.288308E-02
+ rat2 1.481595E+00 1/rat2 6.749483E-01
+ min cell 4.231603E-03 max cell 4.231603E-01 max fac    1.5000E+00   6.6667E-01
+ iadd   1 new no cells   15
+*** region   3 size 2.105456E-01 no cells  14 ave size   1.5039E-02
+ dx 1.115080E-02 7.526214E-03 2.598252E-02 0.000000E+00
+ rat1 6.749483E-01 1/rat1 1.481595E+00
+ rat2 0.000000E+00 1/rat2 1.000000E+20
+ min cell 4.231603E-03 max cell 4.231603E-01 max fac    1.5000E+00   6.6667E-01
+ Region is OK 1
+################# pass  15 for direction   4
+*** region   1 size 1.035720E-03 no cells   1 ave size   1.0357E-03
+ dx 0.000000E+00 1.035720E-03 1.035720E-03 1.011224E-02
+ rat1 0.000000E+00 1/rat1 1.000000E+20
+ rat2 1.024224E-01 1/rat2 9.763488E+00
+ min cell 4.231603E-03 max cell 4.231603E-01 max fac    1.5000E+00   6.6667E-01
+ iadd  -1 new no cells    1
+*** region   2 size 2.115790E-01 no cells  15 ave size   1.4105E-02
+ dx 1.035720E-03 1.011224E-02 1.011223E-02 7.526189E-03
+ rat1 9.763487E+00 1/rat1 1.024224E-01
+ rat2 1.343606E+00 1/rat2 7.442657E-01
+ min cell 4.231603E-03 max cell 4.231603E-01 max fac    1.5000E+00   6.6667E-01
+ iadd   1 new no cells   16
+*** region   3 size 2.105456E-01 no cells  14 ave size   1.5039E-02
+ dx 1.011223E-02 7.526189E-03 2.598252E-02 0.000000E+00
+ rat1 7.442657E-01 1/rat1 1.343606E+00
+ rat2 0.000000E+00 1/rat2 1.000000E+20
+ min cell 4.231603E-03 max cell 4.231603E-01 max fac    1.5000E+00   6.6667E-01
+ Region is OK 1
+################# pass  16 for direction   4
+*** region   1 size 1.035720E-03 no cells   1 ave size   1.0357E-03
+ dx 0.000000E+00 1.035720E-03 1.035720E-03 9.250658E-03
+ rat1 0.000000E+00 1/rat1 1.000000E+20
+ rat2 1.119618E-01 1/rat2 8.931620E+00
+ min cell 4.231603E-03 max cell 4.231603E-01 max fac    1.5000E+00   6.6667E-01
+ iadd  -1 new no cells    1
+*** region   2 size 2.115790E-01 no cells  16 ave size   1.3224E-02
+ dx 1.035720E-03 9.250658E-03 9.250677E-03 7.526189E-03
+ rat1 8.931620E+00 1/rat1 1.119618E-01
+ rat2 1.229132E+00 1/rat2 8.135825E-01
+ min cell 4.231603E-03 max cell 4.231603E-01 max fac    1.5000E+00   6.6667E-01
+ iadd   1 new no cells   17
+*** region   3 size 2.105456E-01 no cells  14 ave size   1.5039E-02
+ dx 9.250677E-03 7.526189E-03 2.598252E-02 0.000000E+00
+ rat1 8.135825E-01 1/rat1 1.229132E+00
+ rat2 0.000000E+00 1/rat2 1.000000E+20
+ min cell 4.231603E-03 max cell 4.231603E-01 max fac    1.5000E+00   6.6667E-01
+ Region is OK 1
+################# pass  17 for direction   4
+*** region   1 size 1.035720E-03 no cells   1 ave size   1.0357E-03
+ dx 0.000000E+00 1.035720E-03 1.035720E-03 8.457961E-03
+ rat1 0.000000E+00 1/rat1 1.000000E+20
+ rat2 1.224551E-01 1/rat2 8.166261E+00
+ min cell 4.231603E-03 max cell 4.231603E-01 max fac    1.5000E+00   6.6667E-01
+ iadd  -1 new no cells    1
+*** region   2 size 2.115790E-01 no cells  17 ave size   1.2446E-02
+ dx 1.035720E-03 8.457961E-03 8.457964E-03 7.526189E-03
+ rat1 8.166261E+00 1/rat1 1.224551E-01
+ rat2 1.123804E+00 1/rat2 8.898345E-01
+ min cell 4.231603E-03 max cell 4.231603E-01 max fac    1.5000E+00   6.6667E-01
+ iadd   1 new no cells   18
+*** region   3 size 2.105456E-01 no cells  14 ave size   1.5039E-02
+ dx 8.457964E-03 7.526189E-03 2.598252E-02 0.000000E+00
+ rat1 8.898345E-01 1/rat1 1.123804E+00
+ rat2 0.000000E+00 1/rat2 1.000000E+20
+ min cell 4.231603E-03 max cell 4.231603E-01 max fac    1.5000E+00   6.6667E-01
+ Region is OK 1
+################# pass  18 for direction   4
+*** region   1 size 1.035720E-03 no cells   1 ave size   1.0357E-03
+ dx 0.000000E+00 1.035720E-03 1.035720E-03 7.790395E-03
+ rat1 0.000000E+00 1/rat1 1.000000E+20
+ rat2 1.329483E-01 1/rat2 7.521719E+00
+ min cell 4.231603E-03 max cell 4.231603E-01 max fac    1.5000E+00   6.6667E-01
+ iadd  -1 new no cells    1
+*** region   2 size 2.115790E-01 no cells  18 ave size   1.1754E-02
+ dx 1.035720E-03 7.790395E-03 7.790393E-03 7.526214E-03
+ rat1 7.521718E+00 1/rat1 1.329484E-01
+ rat2 1.035101E+00 1/rat2 9.660891E-01
+ min cell 4.231603E-03 max cell 4.231603E-01 max fac    1.5000E+00   6.6667E-01
+ iadd   1 new no cells   19
+*** region   3 size 2.105456E-01 no cells  14 ave size   1.5039E-02
+ dx 7.790393E-03 7.526214E-03 2.598252E-02 0.000000E+00
+ rat1 9.660892E-01 1/rat1 1.035101E+00
+ rat2 0.000000E+00 1/rat2 1.000000E+20
+ min cell 4.231603E-03 max cell 4.231603E-01 max fac    1.5000E+00   6.6667E-01
+ Region is OK 1
+################# pass  19 for direction   4
+*** region   1 size 1.035720E-03 no cells   1 ave size   1.0357E-03
+ dx 0.000000E+00 1.035720E-03 1.035720E-03 7.168061E-03
+ rat1 0.000000E+00 1/rat1 1.000000E+20
+ rat2 1.444910E-01 1/rat2 6.920848E+00
+ min cell 4.231603E-03 max cell 4.231603E-01 max fac    1.5000E+00   6.6667E-01
+ iadd  -1 new no cells    1
+*** region   2 size 2.115790E-01 no cells  19 ave size   1.1136E-02
+ dx 1.035720E-03 7.168061E-03 7.168070E-03 7.526189E-03
+ rat1 6.920848E+00 1/rat1 1.444910E-01
+ rat2 9.524170E-01 1/rat2 1.049960E+00
+ min cell 4.231603E-03 max cell 4.231603E-01 max fac    1.5000E+00   6.6667E-01
+ iadd   1 new no cells   20
+*** region   3 size 2.105456E-01 no cells  14 ave size   1.5039E-02
+ dx 7.168070E-03 7.526189E-03 2.598252E-02 0.000000E+00
+ rat1 1.049960E+00 1/rat1 9.524169E-01
+ rat2 0.000000E+00 1/rat2 1.000000E+20
+ min cell 4.231603E-03 max cell 4.231603E-01 max fac    1.5000E+00   6.6667E-01
+ Region is OK 1
+################# pass  20 for direction   4
+*** region   1 size 1.035720E-03 no cells   1 ave size   1.0357E-03
+ dx 0.000000E+00 1.035720E-03 1.035720E-03 6.637805E-03
+ rat1 0.000000E+00 1/rat1 1.000000E+20
+ rat2 1.560335E-01 1/rat2 6.408879E+00
+ min cell 4.231603E-03 max cell 4.231603E-01 max fac    1.5000E+00   6.6667E-01
+ iadd  -1 new no cells    1
+*** region   2 size 2.115790E-01 no cells  20 ave size   1.0579E-02
+ dx 1.035720E-03 6.637805E-03 6.637783E-03 7.526189E-03
+ rat1 6.408879E+00 1/rat1 1.560335E-01
+ rat2 8.819581E-01 1/rat2 1.133841E+00
+ min cell 4.231603E-03 max cell 4.231603E-01 max fac    1.5000E+00   6.6667E-01
+ iadd   1 new no cells   21
+*** region   3 size 2.105456E-01 no cells  14 ave size   1.5039E-02
+ dx 6.637783E-03 7.526189E-03 2.598252E-02 0.000000E+00
+ rat1 1.133841E+00 1/rat1 8.819581E-01
+ rat2 0.000000E+00 1/rat2 1.000000E+20
+ min cell 4.231603E-03 max cell 4.231603E-01 max fac    1.5000E+00   6.6667E-01
+ Region is OK 1
+################# pass  21 for direction   4
+*** region   1 size 1.035720E-03 no cells   1 ave size   1.0357E-03
+ dx 0.000000E+00 1.035720E-03 1.035720E-03 6.138312E-03
+ rat1 0.000000E+00 1/rat1 1.000000E+20
+ rat2 1.687304E-01 1/rat2 5.926613E+00
+ min cell 4.231603E-03 max cell 4.231603E-01 max fac    1.5000E+00   6.6667E-01
+ iadd  -1 new no cells    1
+*** region   2 size 2.115790E-01 no cells  21 ave size   1.0075E-02
+ dx 1.035720E-03 6.138312E-03 6.138331E-03 7.526164E-03
+ rat1 5.926613E+00 1/rat1 1.687304E-01
+ rat2 8.155989E-01 1/rat2 1.226093E+00
+ min cell 4.231603E-03 max cell 4.231603E-01 max fac    1.5000E+00   6.6667E-01
+ iadd   1 new no cells   22
+*** region   3 size 2.105456E-01 no cells  14 ave size   1.5039E-02
+ dx 6.138331E-03 7.526164E-03 2.598252E-02 0.000000E+00
+ rat1 1.226093E+00 1/rat1 8.155988E-01
+ rat2 0.000000E+00 1/rat2 1.000000E+20
+ min cell 4.231603E-03 max cell 4.231603E-01 max fac    1.5000E+00   6.6667E-01
+ Region is OK 1
+################# pass  22 for direction   4
+*** region   1 size 1.035720E-03 no cells   1 ave size   1.0357E-03
+ dx 0.000000E+00 1.035720E-03 1.035720E-03 5.708734E-03
+ rat1 0.000000E+00 1/rat1 1.000000E+20
+ rat2 1.814273E-01 1/rat2 5.511850E+00
+ min cell 4.231603E-03 max cell 4.231603E-01 max fac    1.5000E+00   6.6667E-01
+ iadd  -1 new no cells    1
+*** region   2 size 2.115790E-01 no cells  22 ave size   9.6172E-03
+ dx 1.035720E-03 5.708734E-03 5.708744E-03 7.526189E-03
+ rat1 5.511850E+00 1/rat1 1.814273E-01
+ rat2 7.585173E-01 1/rat2 1.318362E+00
+ min cell 4.231603E-03 max cell 4.231603E-01 max fac    1.5000E+00   6.6667E-01
+ iadd   1 new no cells   23
+*** region   3 size 2.105456E-01 no cells  14 ave size   1.5039E-02
+ dx 5.708744E-03 7.526189E-03 2.598252E-02 0.000000E+00
+ rat1 1.318362E+00 1/rat1 7.585173E-01
+ rat2 0.000000E+00 1/rat2 1.000000E+20
+ min cell 4.231603E-03 max cell 4.231603E-01 max fac    1.5000E+00   6.6667E-01
+ Region is OK 1
+################# pass  23 for direction   4
+ Minimum ratio 1.814273E-01 in region     1
+ Maximim ratio 5.511850E+00 in region     2
+ Smallest cell 1.035720E-03 in region     1
+ Largest cell  7.526189E-03 in region     3
