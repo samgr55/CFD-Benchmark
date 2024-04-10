@@ -1,0 +1,18 @@
+C:\Users\samra\AppData\Roaming\McNeel\Rhinoceros\7.0\Plug-ins\RhinoCFD (376ce15a-ac8d-4c58-ae2c-913728cd2930)\2022.1.4.1018\                                                                                                                                    
+Allocating F( 2000000) for Satellite                                
+Allocating NAMPAT( 5000) for Satellite                                          
+Allocating PIL variables 200 300 200 400                                                                                          
+Allocating SPEDAT( 91) for Satellite                                            
+Allocating Object attribute arrays ( 10) for Satellite                          
+Allocating STACK ( 5000) for Satellite                                          
+Allocating INFATT ( 5)                                                          
+Default VR Geometry arrays allocated                                            
+Increasing INFATT from 5 to 10                                                  
+Increasing INFATT from 10 to 17                                                 
+Allocating RSP( 80) for Satellite                                   
+Allocating CSP( 88) for Satellite                                   
+Increasing CSP from 88 to 207                                       
+Allocating ISP( 150) for Satellite                                  
+Increasing RSP from 80 to 345                                       
+Increasing ISP from 150 to 300                                      
+Increasing ISP from 300 to 525                                      
